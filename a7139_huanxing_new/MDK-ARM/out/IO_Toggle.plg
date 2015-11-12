@@ -1,0 +1,258 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\My WorkPlace\NEW_TAG\sleep_wake\a7139_huanxing_new\MDK-ARM\STM32F051R8_Demo.uvproj
+Project File Date:  07/10/2015
+
+<h2>Output:</h2>
+Build target 'tag_wakeup_model'
+compiling stm32f0xx_it.c...
+..\stm32f0xx_it.c(64): warning:  #223-D: function "SysTime_handle" declared implicitly
+..\stm32f0xx_it.c(81): warning:  #223-D: function "a7139_recv_handle" declared implicitly
+compiling main.c...
+..\src\main.c(44): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+..\src\main.c(55): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(57): warning:  #223-D: function "Tag_Init" declared implicitly
+..\src\main.c(59): warning:  #223-D: function "send_alive_cmd_to_master" declared implicitly
+..\src\main.c(63): warning:  #223-D: function "usart_msg_handle" declared implicitly
+compiling app_msg.c...
+..\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+..\src\app_msg.c(44): warning:  #223-D: function "memset" declared implicitly
+..\src\app_msg.c(64): warning:  #223-D: function "cmd_handle" declared implicitly
+compiling sleep_wake.c...
+..\sleep_wake\sleep_wake.c(73): warning:  #223-D: function "memset" declared implicitly
+..\sleep_wake\sleep_wake.c(136): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\sleep_wake\sleep_wake.c(168): warning:  #223-D: function "A7139_Fill_FIFO" declared implicitly
+..\sleep_wake\sleep_wake.c(176): warning:  #177-D: variable "ret" was declared but never referenced
+..\sleep_wake\sleep_wake.c(224): warning:  #223-D: function "USART2_Send" declared implicitly
+compiling a7139.c...
+..\a7139\a7139.c(133): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+..\a7139\a7139.c(162): warning:  #223-D: function "Delay10us" declared implicitly
+..\a7139\a7139.c(453): warning:  #550-D: variable "fb" was set but never used
+..\a7139\a7139.c(453): warning:  #550-D: variable "fcd" was set but never used
+..\a7139\a7139.c(454): warning:  #550-D: variable "vb" was set but never used
+..\a7139\a7139.c(455): warning:  #550-D: variable "vcb" was set but never used
+compiling a7139_api.c...
+..\a7139\a7139_api.c(69): warning:  #223-D: function "Delay10us" declared implicitly
+..\a7139\a7139_api.c(87): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+..\a7139\a7139_api.c(102): warning:  #550-D: variable "vb" was set but never used
+..\a7139\a7139_api.c(103): warning:  #177-D: variable "vcb" was declared but never referenced
+..\a7139\a7139_api.c(103): warning:  #177-D: variable "vccf" was declared but never referenced
+..\a7139\a7139_api.c(168): warning:  #223-D: function "Delay10us" declared implicitly
+..\a7139\a7139_api.c(218): warning:  #223-D: function "USART2_Send" declared implicitly
+..\a7139\a7139_api.c(237): warning:  #223-D: function "Delay_ms" declared implicitly
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\IO_Toggle.axf" - 0 Errors, 29 Warning(s).
+Build target 'tag_wakeup_model'
+compiling app_msg.c...
+..\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+..\src\app_msg.c(44): warning:  #223-D: function "memset" declared implicitly
+..\src\app_msg.c(64): warning:  #223-D: function "cmd_handle" declared implicitly
+compiling sleep_wake.c...
+..\sleep_wake\sleep_wake.c(73): warning:  #223-D: function "memset" declared implicitly
+..\sleep_wake\sleep_wake.c(136): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\sleep_wake\sleep_wake.c(168): warning:  #223-D: function "A7139_Fill_FIFO" declared implicitly
+..\sleep_wake\sleep_wake.c(176): warning:  #177-D: variable "ret" was declared but never referenced
+..\sleep_wake\sleep_wake.c(224): warning:  #223-D: function "USART2_Send" declared implicitly
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\IO_Toggle.axf" - 0 Errors, 8 Warning(s).
+Build target 'tag_wakeup_model'
+compiling main.c...
+..\src\main.c(45): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+..\src\main.c(56): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(60): warning:  #223-D: function "send_alive_cmd_to_master" declared implicitly
+..\src\main.c(64): warning:  #223-D: function "usart_msg_handle" declared implicitly
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\IO_Toggle.axf" - 0 Errors, 4 Warning(s).
+Build target 'tag_wakeup_model'
+compiling main.c...
+..\src\main.c(45): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+..\src\main.c(56): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(64): warning:  #223-D: function "usart_msg_handle" declared implicitly
+compiling app_msg.c...
+..\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+..\src\app_msg.c(44): warning:  #223-D: function "memset" declared implicitly
+..\src\app_msg.c(64): warning:  #223-D: function "cmd_handle" declared implicitly
+compiling sleep_wake.c...
+..\sleep_wake\sleep_wake.c(73): warning:  #223-D: function "memset" declared implicitly
+..\sleep_wake\sleep_wake.c(136): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\sleep_wake\sleep_wake.c(168): warning:  #223-D: function "A7139_Fill_FIFO" declared implicitly
+..\sleep_wake\sleep_wake.c(176): warning:  #177-D: variable "ret" was declared but never referenced
+..\sleep_wake\sleep_wake.c(224): warning:  #223-D: function "USART2_Send" declared implicitly
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\IO_Toggle.axf" - 0 Errors, 11 Warning(s).
+Build target 'tag_wakeup_model'
+compiling main.c...
+..\src\main.c(45): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+..\src\main.c(56): warning:  #223-D: function "InitRF" declared implicitly
+compiling app_msg.c...
+..\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+..\src\app_msg.c(44): warning:  #223-D: function "memset" declared implicitly
+..\src\app_msg.c(64): warning:  #223-D: function "cmd_handle" declared implicitly
+compiling sleep_wake.c...
+..\sleep_wake\sleep_wake.c(73): warning:  #223-D: function "memset" declared implicitly
+..\sleep_wake\sleep_wake.c(136): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\sleep_wake\sleep_wake.c(168): warning:  #223-D: function "A7139_Fill_FIFO" declared implicitly
+..\sleep_wake\sleep_wake.c(176): warning:  #177-D: variable "ret" was declared but never referenced
+..\sleep_wake\sleep_wake.c(224): warning:  #223-D: function "USART2_Send" declared implicitly
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\IO_Toggle.axf" - 0 Errors, 10 Warning(s).
+Build target 'tag_wakeup_model'
+compiling main.c...
+..\src\main.c(23): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(71): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+compiling BSP_USART2.c...
+..\src\BSP_USART2.c(63): warning:  #223-D: function "usart_data_handle" declared implicitly
+compiling a7139.c...
+..\a7139\a7139.c(132): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+..\a7139\a7139.c(161): warning:  #223-D: function "Delay10us" declared implicitly
+..\a7139\a7139.c(452): warning:  #550-D: variable "fb" was set but never used
+..\a7139\a7139.c(452): warning:  #550-D: variable "fcd" was set but never used
+..\a7139\a7139.c(453): warning:  #550-D: variable "vb" was set but never used
+..\a7139\a7139.c(454): warning:  #550-D: variable "vcb" was set but never used
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\IO_Toggle.axf" - 0 Errors, 9 Warning(s).
+Build target 'tag_wakeup_model'
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\IO_Toggle.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'tag_wakeup_model'
+compiling stm32f0xx_it.c...
+..\stm32f0xx_it.c(64): warning:  #223-D: function "SysTime_handle" declared implicitly
+..\stm32f0xx_it.c(81): warning:  #223-D: function "a7139_recv_handle" declared implicitly
+compiling system_stm32f0xx.c...
+compiling main.c...
+..\src\main.c(23): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(71): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+compiling app_msg.c...
+..\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+..\src\app_msg.c(44): warning:  #223-D: function "memset" declared implicitly
+..\src\app_msg.c(64): warning:  #223-D: function "cmd_handle" declared implicitly
+compiling sleep_wake.c...
+..\sleep_wake\sleep_wake.c(73): warning:  #223-D: function "memset" declared implicitly
+..\sleep_wake\sleep_wake.c(136): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\sleep_wake\sleep_wake.c(168): warning:  #223-D: function "A7139_Fill_FIFO" declared implicitly
+..\sleep_wake\sleep_wake.c(176): warning:  #177-D: variable "ret" was declared but never referenced
+..\sleep_wake\sleep_wake.c(224): warning:  #223-D: function "USART2_Send" declared implicitly
+compiling BSP_USART2.c...
+..\src\BSP_USART2.c(63): warning:  #223-D: function "usart_data_handle" declared implicitly
+assembling startup_stm32f0xx.s...
+compiling stm32f0xx_adc.c...
+compiling stm32f0xx_cec.c...
+compiling stm32f0xx_comp.c...
+compiling stm32f0xx_crc.c...
+compiling stm32f0xx_dac.c...
+compiling stm32f0xx_dbgmcu.c...
+compiling stm32f0xx_dma.c...
+compiling stm32f0xx_exti.c...
+compiling stm32f0xx_flash.c...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_i2c.c...
+compiling stm32f0xx_iwdg.c...
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_pwr.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_rtc.c...
+compiling stm32f0xx_spi.c...
+compiling stm32f0xx_syscfg.c...
+compiling stm32f0xx_tim.c...
+compiling stm32f0xx_usart.c...
+compiling stm32f0xx_wwdg.c...
+compiling a7139.c...
+..\a7139\a7139.c(132): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+..\a7139\a7139.c(161): warning:  #223-D: function "Delay10us" declared implicitly
+..\a7139\a7139.c(452): warning:  #550-D: variable "fb" was set but never used
+..\a7139\a7139.c(452): warning:  #550-D: variable "fcd" was set but never used
+..\a7139\a7139.c(453): warning:  #550-D: variable "vb" was set but never used
+..\a7139\a7139.c(454): warning:  #550-D: variable "vcb" was set but never used
+compiling a7139_api.c...
+..\a7139\a7139_api.c(69): warning:  #223-D: function "Delay10us" declared implicitly
+..\a7139\a7139_api.c(87): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+..\a7139\a7139_api.c(102): warning:  #550-D: variable "vb" was set but never used
+..\a7139\a7139_api.c(103): warning:  #177-D: variable "vcb" was declared but never referenced
+..\a7139\a7139_api.c(103): warning:  #177-D: variable "vccf" was declared but never referenced
+..\a7139\a7139_api.c(168): warning:  #223-D: function "Delay10us" declared implicitly
+..\a7139\a7139_api.c(218): warning:  #223-D: function "USART2_Send" declared implicitly
+..\a7139\a7139_api.c(237): warning:  #223-D: function "Delay_ms" declared implicitly
+linking...
+Program Size: Code=5656 RO-data=332 RW-data=148 ZI-data=1172  
+FromELF: creating hex file...
+".\out\a7139_bugle.axf" - 0 Errors, 27 Warning(s).
+Build target 'tag_wakeup_model'
+compiling main.c...
+..\src\main.c(23): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(73): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+..\src\main.c(80): warning:  #223-D: function "uart_buffer_clean" declared implicitly
+compiling app_msg.c...
+..\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+..\src\app_msg.c(39): warning:  #223-D: function "memset" declared implicitly
+..\src\app_msg.c(80): warning:  #223-D: function "cmd_handle" declared implicitly
+linking...
+Program Size: Code=5760 RO-data=332 RW-data=152 ZI-data=1168  
+FromELF: creating hex file...
+".\out\a7139_bugle.axf" - 0 Errors, 6 Warning(s).
+Build target 'tag_wakeup_model'
+compiling app_msg.c...
+..\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+..\src\app_msg.c(39): warning:  #223-D: function "memset" declared implicitly
+..\src\app_msg.c(80): warning:  #223-D: function "cmd_handle" declared implicitly
+linking...
+Program Size: Code=5760 RO-data=332 RW-data=152 ZI-data=1168  
+FromELF: creating hex file...
+".\out\a7139_bugle.axf" - 0 Errors, 3 Warning(s).
+Build target 'tag_wakeup_model'
+linking...
+Program Size: Code=5760 RO-data=332 RW-data=152 ZI-data=1168  
+FromELF: creating hex file...
+".\out\a7139_bugle.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\My WorkPlace\\NEW_TAG\\sleep_wake\\a7139_huanxing_new\\MDK-ARM\\out\\a7139_bugle.axf" 
+Set JLink Project File to "E:\My WorkPlace\NEW_TAG\sleep_wake\a7139_huanxing_new\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051R8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 60009632 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+Load "E:\\My WorkPlace\\NEW_TAG\\sleep_wake\\a7139_huanxing_new\\MDK-ARM\\out\\a7139_bugle.axf" 
+Set JLink Project File to "E:\My WorkPlace\NEW_TAG\sleep_wake\a7139_huanxing_new\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051R8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 60009632 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+Load "E:\\My WorkPlace\\NEW_TAG\\sleep_wake\\a7139_huanxing_new\\MDK-ARM\\out\\a7139_bugle.axf" 
+Set JLink Project File to "E:\My WorkPlace\NEW_TAG\sleep_wake\a7139_huanxing_new\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051R8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 60009632 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 

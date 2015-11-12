@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\My WorkPlace\smart_TAG_m0\MDK-ARM\pro\smart_tags_m0.uvproj
+Project File Date:  03/16/2015
+
+<h2>Output:</h2>
+Build target 'smart_tags_m0'
+assembling startup_stm32f0xx.s...
+linking...
+..\obj\smart_tags_m0.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+..\obj\smart_tags_m0.axf: Error: L6411E: No compatible library exists with a definition of startup symbol __main.
+"..\obj\smart_tags_m0.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'smart_tags_m0'
+assembling startup_stm32f0xx.s...
+compiling main.c...
+..\..\Src\main.c(12): error:  #5: cannot open source input file "BSP_OLED.h": No such file or directory
+"..\obj\smart_tags_m0.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'smart_tags_m0'
+compiling main.c...
+linking...
+..\obj\smart_tags_m0.axf: Error: L6218E: Undefined symbol SystemInit (referred from startup_stm32f0xx.o).
+"..\obj\smart_tags_m0.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'smart_tags_m0'
+compiling main.c...
+compiling system_stm32f0xx.c...
+linking...
+Program Size: Code=1120 RO-data=224 RW-data=20 ZI-data=1636  
+"..\obj\smart_tags_m0.axf" - 0 Errors, 0 Warning(s).
+Build target 'smart_tags_m0'
+compiling system_stm32f0xx.c...
+linking...
+Program Size: Code=1120 RO-data=224 RW-data=20 ZI-data=1636  
+"..\obj\smart_tags_m0.axf" - 0 Errors, 0 Warning(s).

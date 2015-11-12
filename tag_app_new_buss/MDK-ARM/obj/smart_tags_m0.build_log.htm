@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\wangxubo\a7139\a7109test\MDK-ARM\pro\smart_tags_m0.uvproj
+Project File Date:  06/21/2015
+
+<h2>Output:</h2>
+Build target 'smart_tags_m0'
+compiling a7139_api.c...
+..\..\Libraries\a7139\a7139_api.c(10): warning:  #188-D: enumerated type mixed with another type
+  a7139_rf_t rf_state = {0};
+..\..\Libraries\a7139\a7139_api.c(16): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+          A7139_WritePageA(WOR2_PAGEA, A7139Config_PageA[WOR2_PAGEA] | 0x0010);
+..\..\Libraries\a7139\a7139_api.c(21): warning:  #223-D: function "A7139_ReadPageA" declared implicitly
+                          calbrtVal = A7139_ReadPageA(WCAL_PAGEA) & 0x0001;
+..\..\Libraries\a7139\a7139_api.c(24): warning:  #223-D: function "A7139_ReadPageA" declared implicitly
+                  calbrtVal = (A7139_ReadPageA(WCAL_PAGEA) & 0x03FF) >> 1;
+..\..\Libraries\a7139\a7139_api.c(48): warning:  #223-D: function "A7139_WriteReg" declared implicitly
+        A7139_WriteReg(CRYSTAL_REG, pagAddr);
+..\..\Libraries\a7139\a7139_api.c(49): warning:  #223-D: function "A7139_ReadReg" declared implicitly
+        pid = A7139_ReadReg(PAGEB_REG);
+..\..\Libraries\a7139\a7139_api.c(56): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_STBY);
+..\..\Libraries\a7139\a7139_api.c(57): warning:  #223-D: function "Delay_ms" declared implicitly
+        Delay_ms(20);
+..\..\Libraries\a7139\a7139_api.c(59): warning:  #223-D: function "A7139_WriteReg" declared implicitly
+        A7139_WriteReg(CRYSTAL_REG,A7139Config[CRYSTAL_REG] & 0xFFFE );
+..\..\Libraries\a7139\a7139_api.c(69): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+                        A7139_WritePageA(TX1_PAGEA,0xF505);
+..\..\Libraries\a7139\a7139_api.c(79): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+                        A7139_WritePageA(TX1_PAGEA,0xF706);
+..\..\Libraries\a7139\a7139_api.c(89): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+                        A7139_WritePageA(TX1_PAGEA,0xF606);
+..\..\Libraries\a7139\a7139_api.c(99): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+                        A7139_WritePageA(TX1_PAGEA,0xF706);
+..\..\Libraries\a7139\a7139_api.c(129): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_STBY);
+..\..\Libraries\a7139\a7139_api.c(132): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+        A7139_WritePageA(FIFO_PAGEA,pagVal|(len-1));
+..\..\Libraries\a7139\a7139_api.c(145): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+                                A7139_WritePageA(CODE_PAGEA,A7139Config[CODE_PAGEA] & 0xBFFB);
+..\..\Libraries\a7139\a7139_api.c(150): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+                                A7139_WritePageA(CODE_PAGEA,A7139Config[CODE_PAGEA] & 0xBFFB);
+..\..\Libraries\a7139\a7139_api.c(162): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_TFR);     
+..\..\Libraries\a7139\a7139_api.c(163): warning:  #223-D: function "Delay_ms" declared implicitly
+       Delay_ms(1);
+..\..\Libraries\a7139\a7139_api.c(174): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_RFR);
+..\..\Libraries\a7139\a7139_api.c(175): warning:  #223-D: function "Delay_ms" declared implicitly
+        Delay_ms(1);
+..\..\Libraries\a7139\a7139_api.c(188): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_STBY);
+..\..\Libraries\a7139\a7139_api.c(191): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+        A7139_WritePageA(PM_PAGEA,pagVal | (low2_x << 1) | 0x01);
+..\..\Libraries\a7139\a7139_api.c(192): warning:  #223-D: function "Delay_ms" declared implicitly
+        Delay_ms(1);//Delay_us(10); //delay 5us at least 
+..\..\Libraries\a7139\a7139_api.c(194): warning:  #223-D: function "A7139_ReadPageA" declared implicitly
+        return !((A7139_ReadPageA(WOR1_PAGEA) & 0x0080) >> 7);
+..\..\Libraries\a7139\a7139_api.c(201): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_RX);      
+..\..\Libraries\a7139\a7139_api.c(203): warning:  #223-D: function "A7139_WriteReg" declared implicitly
+        A7139_WriteReg(ADC_REG,A7139Config[ADC_REG] & 0xFEFF);
+..\..\Libraries\a7139\a7139_api.c(205): warning:  #223-D: function "A7139_ReadReg" declared implicitly
+        A7139_WriteReg(MODE_REG,A7139_ReadReg(MODE_REG) | 0x0001);
+..\..\Libraries\a7139\a7139_api.c(223): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_STBY);
+..\..\Libraries\a7139\a7139_api.c(225): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+        A7139_WritePageA(GIO_PAGEA, 0x0045);
+..\..\Libraries\a7139\a7139_api.c(229): warning:  #223-D: function "A7139_WriteReg" declared implicitly
+        A7139_WriteReg(PIN_REG, A7139Config[PIN_REG] | 0x0400);
+..\..\Libraries\a7139\a7139_api.c(237): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_STBY);
+..\..\Libraries\a7139\a7139_api.c(239): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+        A7139_WritePageA(GIO_PAGEA, 0x0045);
+..\..\Libraries\a7139\a7139_api.c(247): warning:  #223-D: function "A7139_WriteReg" declared implicitly
+        A7139_WriteReg(MODE_REG, A7139Config[MODE_REG] | 0x0200);
+..\..\Libraries\a7139\a7139_api.c(255): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_STBY);
+..\..\Libraries\a7139\a7139_api.c(256): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+        A7139_WritePageA(GIO_PAGEA, 0x004D);    //GIO1=PMDO, GIO2=WTR
+..\..\Libraries\a7139\a7139_api.c(267): warning:  #223-D: function "A7139_WriteReg" declared implicitly
+        A7139_WriteReg(MODE_REG, A7139Config[MODE_REG] | 0x0200);                               //WORE=1 to enable WOR function
+..\..\Libraries\a7139\a7139_api.c(278): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_TX);
+..\..\Libraries\a7139\a7139_api.c(280): warning:  #223-D: function "Delay_ms" declared implicitly
+        Delay_ms(1);//Delay10us(1);
+..\..\Libraries\a7139\a7139_api.c(299): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_RFR);             //RX FIFO address pointer reset
+..\..\Libraries\a7139\a7139_api.c(297): warning:  #550-D: variable "pkt_tmp" was set but never used
+        uint8 pkt_tmp[64] = {0};
+..\..\Libraries\a7139\a7139_api.c: 41 warnings, 0 errors
+linking...
+Program Size: Code=31564 RO-data=29876 RW-data=1920 ZI-data=5080  
+"..\obj\smart_tags_m0.axf" - 0 Error(s), 41 Warning(s).
+</pre>
+</body>
+</html>
+7139_api.c: 41 warnings, 2 errors
+"..\obj\smart_tags_m0.axf" - 2 Error(s), 41 Warning(s).
+Target not created
+riteReg(MODE_REG, A7139Config[MODE_REG] | 0x0200);
+..\..\Libraries\a7139\a7139_api.c(254): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_STBY);
+..\..\Libraries\a7139\a7139_api.c(255): warning:  #223-D: function "A7139_WritePageA" declared implicitly
+        A7139_WritePageA(GIO_PAGEA, 0x004D);    //GIO1=PMDO, GIO2=WTR
+..\..\Libraries\a7139\a7139_api.c(266): warning:  #223-D: function "A7139_WriteReg" declared implicitly
+        A7139_WriteReg(MODE_REG, A7139Config[MODE_REG] | 0x0200);                               //WORE=1 to enable WOR function
+..\..\Libraries\a7139\a7139_api.c(277): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_TX);
+..\..\Libraries\a7139\a7139_api.c(279): warning:  #223-D: function "Delay_ms" declared implicitly
+        Delay_ms(1);//Delay10us(1);
+..\..\Libraries\a7139\a7139_api.c(298): warning:  #223-D: function "StrobeCMD" declared implicitly
+        StrobeCMD(CMD_RFR);             //RX FIFO address pointer reset
+..\..\Libraries\a7139\a7139_api.c(296): warning:  #550-D: variable "pkt_tmp" was set but never used
+        uint8 pkt_tmp[64] = {0};
+..\..\Libraries\a7139\a7139_api.c: 40 warnings, 0 errors
+linking...
+Program Size: Code=31564 RO-data=29876 RW-data=1920 ZI-data=5080  
+"..\obj\smart_tags_m0.axf" - 0 Error(s), 51 Warning(s).

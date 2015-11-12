@@ -1,0 +1,14 @@
+--cpu Cortex-M0
+".\out\stm32f0xx_it.o"
+".\out\system_stm32f0xx.o"
+".\out\main.o"
+".\out\flash_if.o"
+".\out\crc16.o"
+".\out\startup_stm32f0xx.o"
+".\out\stm32f0xx_rcc.o"
+".\out\stm32f0xx_syscfg.o"
+".\out\stm32f0xx_flash.o"
+--library_type=microlib --strict --scatter ".\out\IO_Toggle.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\out\IO_Toggle.map" -o .\out\IO_Toggle.axf

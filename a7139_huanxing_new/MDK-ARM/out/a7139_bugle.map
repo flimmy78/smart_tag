@@ -1255,121 +1255,121 @@ Memory Map of the image
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x000000c0   Data   RO          602    RESET               startup_stm32f0xx.o
-    0x080000c0   0x00000000   Code   RO         4039  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
-    0x080000c0   0x00000004   Code   RO         4050    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
-    0x080000c4   0x00000004   Code   RO         4053    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
-    0x080000c8   0x00000000   Code   RO         4055    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
-    0x080000c8   0x00000000   Code   RO         4057    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
-    0x080000c8   0x00000008   Code   RO         4058    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
-    0x080000d0   0x00000000   Code   RO         4060    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
-    0x080000d0   0x00000000   Code   RO         4062    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
-    0x080000d0   0x00000004   Code   RO         4051    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
-    0x080000d4   0x0000001c   Code   RO          603    .text               startup_stm32f0xx.o
-    0x080000f0   0x0000002c   Code   RO         4042    .text               mc_p.l(uidiv.o)
-    0x0800011c   0x00000024   Code   RO         4044    .text               mc_p.l(memcpya.o)
-    0x08000140   0x00000024   Code   RO         4046    .text               mc_p.l(memseta.o)
-    0x08000164   0x00000024   Code   RO         4064    .text               mc_p.l(init.o)
-    0x08000188   0x00000124   Code   RO         3791    i.A7139_Cal         a7139.o
-    0x080002ac   0x00000084   Code   RO         3792    i.A7139_Config      a7139.o
-    0x08000330   0x0000001c   Code   RO         3941    i.A7139_Fill_FIFO   a7139_api.o
-    0x0800034c   0x00000020   Code   RO         3794    i.A7139_IO_ReSetBit  a7139.o
-    0x0800036c   0x00000020   Code   RO         3795    i.A7139_IO_Read_Bit  a7139.o
-    0x0800038c   0x00000020   Code   RO         3796    i.A7139_IO_SetBit   a7139.o
-    0x080003ac   0x0000001c   Code   RO         3797    i.A7139_RX_Exti     a7139.o
-    0x080003c8   0x00000028   Code   RO         3798    i.A7139_ReadPageA   a7139.o
-    0x080003f0   0x00000090   Code   RO         3800    i.A7139_ReadReg     a7139.o
-    0x08000480   0x0000001c   Code   RO         3943    i.A7139_Send_Msg    a7139_api.o
-    0x0800049c   0x000000b4   Code   RO         3944    i.A7139_SetChn      a7139_api.o
-    0x08000550   0x0000008c   Code   RO         3801    i.A7139_WriteID     a7139.o
-    0x080005dc   0x00000028   Code   RO         3802    i.A7139_WritePageA  a7139.o
-    0x08000604   0x00000028   Code   RO         3803    i.A7139_WritePageB  a7139.o
-    0x0800062c   0x0000007e   Code   RO         3804    i.A7139_WriteReg    a7139.o
-    0x080006aa   0x0000004a   Code   RO         3946    i.A7139_fillFifo    a7139_api.o
-    0x080006f4   0x00000048   Code   RO         3805    i.ByteRead          a7139.o
-    0x0800073c   0x0000003a   Code   RO         3806    i.ByteSend          a7139.o
+    0x08000000   0x000000c0   Data   RO          519    RESET               startup_stm32f0xx.o
+    0x080000c0   0x00000000   Code   RO         3956  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x080000c0   0x00000004   Code   RO         3967    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x080000c4   0x00000004   Code   RO         3970    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x080000c8   0x00000000   Code   RO         3972    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x080000c8   0x00000000   Code   RO         3974    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x080000c8   0x00000008   Code   RO         3975    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x080000d0   0x00000000   Code   RO         3977    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x080000d0   0x00000000   Code   RO         3979    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x080000d0   0x00000004   Code   RO         3968    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x080000d4   0x0000001c   Code   RO          520    .text               startup_stm32f0xx.o
+    0x080000f0   0x0000002c   Code   RO         3959    .text               mc_p.l(uidiv.o)
+    0x0800011c   0x00000024   Code   RO         3961    .text               mc_p.l(memcpya.o)
+    0x08000140   0x00000024   Code   RO         3963    .text               mc_p.l(memseta.o)
+    0x08000164   0x00000024   Code   RO         3981    .text               mc_p.l(init.o)
+    0x08000188   0x00000124   Code   RO         3708    i.A7139_Cal         a7139.o
+    0x080002ac   0x00000084   Code   RO         3709    i.A7139_Config      a7139.o
+    0x08000330   0x0000001c   Code   RO         3858    i.A7139_Fill_FIFO   a7139_api.o
+    0x0800034c   0x00000020   Code   RO         3711    i.A7139_IO_ReSetBit  a7139.o
+    0x0800036c   0x00000020   Code   RO         3712    i.A7139_IO_Read_Bit  a7139.o
+    0x0800038c   0x00000020   Code   RO         3713    i.A7139_IO_SetBit   a7139.o
+    0x080003ac   0x0000001c   Code   RO         3714    i.A7139_RX_Exti     a7139.o
+    0x080003c8   0x00000028   Code   RO         3715    i.A7139_ReadPageA   a7139.o
+    0x080003f0   0x00000090   Code   RO         3717    i.A7139_ReadReg     a7139.o
+    0x08000480   0x0000001c   Code   RO         3860    i.A7139_Send_Msg    a7139_api.o
+    0x0800049c   0x000000b4   Code   RO         3861    i.A7139_SetChn      a7139_api.o
+    0x08000550   0x0000008c   Code   RO         3718    i.A7139_WriteID     a7139.o
+    0x080005dc   0x00000028   Code   RO         3719    i.A7139_WritePageA  a7139.o
+    0x08000604   0x00000028   Code   RO         3720    i.A7139_WritePageB  a7139.o
+    0x0800062c   0x0000007e   Code   RO         3721    i.A7139_WriteReg    a7139.o
+    0x080006aa   0x0000004a   Code   RO         3863    i.A7139_fillFifo    a7139_api.o
+    0x080006f4   0x00000048   Code   RO         3722    i.ByteRead          a7139.o
+    0x0800073c   0x0000003a   Code   RO         3723    i.ByteSend          a7139.o
     0x08000776   0x00000002   PAD
     0x08000778   0x00000014   Code   RO          191    i.Delay_ms          main.o
     0x0800078c   0x0000001c   Code   RO            3    i.EXTI4_15_IRQHandler  stm32f0xx_it.o
-    0x080007a8   0x0000000c   Code   RO         1260    i.EXTI_ClearITPendingBit  stm32f0xx_exti.o
-    0x080007b4   0x00000028   Code   RO         1264    i.EXTI_GetITStatus  stm32f0xx_exti.o
-    0x080007dc   0x00000004   Code   RO         3807    i.Err_State         a7139.o
+    0x080007a8   0x0000000c   Code   RO         1177    i.EXTI_ClearITPendingBit  stm32f0xx_exti.o
+    0x080007b4   0x00000028   Code   RO         1181    i.EXTI_GetITStatus  stm32f0xx_exti.o
+    0x080007dc   0x00000004   Code   RO         3724    i.Err_State         a7139.o
     0x080007e0   0x00000008   Code   RO          192    i.Feed_IWDG         main.o
-    0x080007e8   0x00000048   Code   RO         3947    i.GIO2_wait         a7139_api.o
-    0x08000830   0x00000090   Code   RO         1510    i.GPIO_Init         stm32f0xx_gpio.o
-    0x080008c0   0x00000044   Code   RO         1511    i.GPIO_PinAFConfig  stm32f0xx_gpio.o
-    0x08000904   0x00000012   Code   RO         1514    i.GPIO_ReadInputDataBit  stm32f0xx_gpio.o
-    0x08000916   0x00000004   Code   RO         1517    i.GPIO_ResetBits    stm32f0xx_gpio.o
-    0x0800091a   0x00000004   Code   RO         1518    i.GPIO_SetBits      stm32f0xx_gpio.o
+    0x080007e8   0x00000048   Code   RO         3864    i.GIO2_wait         a7139_api.o
+    0x08000830   0x00000090   Code   RO         1427    i.GPIO_Init         stm32f0xx_gpio.o
+    0x080008c0   0x00000044   Code   RO         1428    i.GPIO_PinAFConfig  stm32f0xx_gpio.o
+    0x08000904   0x00000012   Code   RO         1431    i.GPIO_ReadInputDataBit  stm32f0xx_gpio.o
+    0x08000916   0x00000004   Code   RO         1434    i.GPIO_ResetBits    stm32f0xx_gpio.o
+    0x0800091a   0x00000004   Code   RO         1435    i.GPIO_SetBits      stm32f0xx_gpio.o
     0x0800091e   0x00000004   Code   RO            4    i.HardFault_Handler  stm32f0xx_it.o
     0x08000922   0x00000002   PAD
-    0x08000924   0x00000010   Code   RO         1867    i.IWDG_Enable       stm32f0xx_iwdg.o
+    0x08000924   0x00000010   Code   RO         1784    i.IWDG_Enable       stm32f0xx_iwdg.o
     0x08000934   0x00000028   Code   RO          193    i.IWDG_Init         main.o
-    0x0800095c   0x00000010   Code   RO         1869    i.IWDG_ReloadCounter  stm32f0xx_iwdg.o
-    0x0800096c   0x0000000c   Code   RO         1870    i.IWDG_SetPrescaler  stm32f0xx_iwdg.o
-    0x08000978   0x0000000c   Code   RO         1871    i.IWDG_SetReload    stm32f0xx_iwdg.o
-    0x08000984   0x0000000c   Code   RO         1873    i.IWDG_WriteAccessCmd  stm32f0xx_iwdg.o
-    0x08000990   0x0000003e   Code   RO         3948    i.InitRF            a7139_api.o
+    0x0800095c   0x00000010   Code   RO         1786    i.IWDG_ReloadCounter  stm32f0xx_iwdg.o
+    0x0800096c   0x0000000c   Code   RO         1787    i.IWDG_SetPrescaler  stm32f0xx_iwdg.o
+    0x08000978   0x0000000c   Code   RO         1788    i.IWDG_SetReload    stm32f0xx_iwdg.o
+    0x08000984   0x0000000c   Code   RO         1790    i.IWDG_WriteAccessCmd  stm32f0xx_iwdg.o
+    0x08000990   0x0000003e   Code   RO         3865    i.InitRF            a7139_api.o
     0x080009ce   0x00000002   Code   RO            5    i.NMI_Handler       stm32f0xx_it.o
-    0x080009d0   0x00000070   Code   RO         1923    i.NVIC_Init         stm32f0xx_misc.o
+    0x080009d0   0x00000070   Code   RO         1840    i.NVIC_Init         stm32f0xx_misc.o
     0x08000a40   0x00000078   Code   RO          194    i.NVIC_SetPriority  main.o
     0x08000ab8   0x00000002   Code   RO            6    i.PendSV_Handler    stm32f0xx_it.o
     0x08000aba   0x00000002   PAD
-    0x08000abc   0x00000020   Code   RO         2030    i.RCC_AHBPeriphClockCmd  stm32f0xx_rcc.o
-    0x08000adc   0x00000020   Code   RO         2032    i.RCC_APB1PeriphClockCmd  stm32f0xx_rcc.o
-    0x08000afc   0x0000016c   Code   RO         2044    i.RCC_GetClocksFreq  stm32f0xx_rcc.o
+    0x08000abc   0x00000020   Code   RO         1947    i.RCC_AHBPeriphClockCmd  stm32f0xx_rcc.o
+    0x08000adc   0x00000020   Code   RO         1949    i.RCC_APB1PeriphClockCmd  stm32f0xx_rcc.o
+    0x08000afc   0x0000016c   Code   RO         1961    i.RCC_GetClocksFreq  stm32f0xx_rcc.o
     0x08000c68   0x00000014   Code   RO          195    i.RCC_Init          main.o
     0x08000c7c   0x00000002   Code   RO            7    i.SVC_Handler       stm32f0xx_it.o
     0x08000c7e   0x00000002   PAD
-    0x08000c80   0x00000030   Code   RO          433    i.SendWakeMsg       sleep_wake.o
-    0x08000cb0   0x00000040   Code   RO         3809    i.SetSDIO_Output    a7139.o
+    0x08000c80   0x00000030   Code   RO          356    i.SendWakeMsg       sleep_wake.o
+    0x08000cb0   0x00000040   Code   RO         3726    i.SetSDIO_Output    a7139.o
     0x08000cf0   0x000000d4   Code   RO          152    i.SetSysClock       system_stm32f0xx.o
-    0x08000dc4   0x00000046   Code   RO         3810    i.StrobeCMD         a7139.o
+    0x08000dc4   0x00000046   Code   RO         3727    i.StrobeCMD         a7139.o
     0x08000e0a   0x00000008   Code   RO            8    i.SysTick_Handler   stm32f0xx_it.o
     0x08000e12   0x00000002   PAD
     0x08000e14   0x0000004c   Code   RO          196    i.SysTick_Init      main.o
     0x08000e60   0x00000050   Code   RO          197    i.SysTime_handle    main.o
     0x08000eb0   0x0000007c   Code   RO          154    i.SystemInit        system_stm32f0xx.o
-    0x08000f2c   0x00000030   Code   RO          434    i.Tag_Init          sleep_wake.o
-    0x08000f5c   0x000000c4   Code   RO          435    i.Tag_state_check   sleep_wake.o
-    0x08001020   0x00000034   Code   RO          561    i.USART2_IRQHandler  bsp_usart2.o
-    0x08001054   0x00000090   Code   RO          562    i.USART2_Init       bsp_usart2.o
-    0x080010e4   0x00000030   Code   RO          563    i.USART2_Send       bsp_usart2.o
-    0x08001114   0x00000004   Code   RO         3419    i.USART_ClearFlag   stm32f0xx_usart.o
-    0x08001118   0x00000012   Code   RO         3420    i.USART_ClearITPendingBit  stm32f0xx_usart.o
-    0x0800112a   0x00000018   Code   RO         3423    i.USART_Cmd         stm32f0xx_usart.o
-    0x08001142   0x00000012   Code   RO         3431    i.USART_GetFlagStatus  stm32f0xx_usart.o
-    0x08001154   0x0000004e   Code   RO         3432    i.USART_GetITStatus  stm32f0xx_usart.o
-    0x080011a2   0x00000042   Code   RO         3434    i.USART_ITConfig    stm32f0xx_usart.o
-    0x080011e4   0x000000f0   Code   RO         3435    i.USART_Init        stm32f0xx_usart.o
-    0x080012d4   0x0000000a   Code   RO         3447    i.USART_ReceiveData  stm32f0xx_usart.o
-    0x080012de   0x00000008   Code   RO         3452    i.USART_SendData    stm32f0xx_usart.o
-    0x080012e6   0x0000000e   Code   RO         4068    i.__scatterload_copy  mc_p.l(handlers.o)
-    0x080012f4   0x00000002   Code   RO         4069    i.__scatterload_null  mc_p.l(handlers.o)
-    0x080012f6   0x0000000e   Code   RO         4070    i.__scatterload_zeroinit  mc_p.l(handlers.o)
-    0x08001304   0x0000005c   Code   RO         3811    i.a7139_GPIO_Init   a7139.o
-    0x08001360   0x00000002   Code   RO         3953    i.a7139_recv_handle  a7139_api.o
+    0x08000f2c   0x00000030   Code   RO          357    i.Tag_Init          sleep_wake.o
+    0x08000f5c   0x000000c4   Code   RO          358    i.Tag_state_check   sleep_wake.o
+    0x08001020   0x00000034   Code   RO          481    i.USART2_IRQHandler  bsp_usart2.o
+    0x08001054   0x00000090   Code   RO          482    i.USART2_Init       bsp_usart2.o
+    0x080010e4   0x00000030   Code   RO          483    i.USART2_Send       bsp_usart2.o
+    0x08001114   0x00000004   Code   RO         3336    i.USART_ClearFlag   stm32f0xx_usart.o
+    0x08001118   0x00000012   Code   RO         3337    i.USART_ClearITPendingBit  stm32f0xx_usart.o
+    0x0800112a   0x00000018   Code   RO         3340    i.USART_Cmd         stm32f0xx_usart.o
+    0x08001142   0x00000012   Code   RO         3348    i.USART_GetFlagStatus  stm32f0xx_usart.o
+    0x08001154   0x0000004e   Code   RO         3349    i.USART_GetITStatus  stm32f0xx_usart.o
+    0x080011a2   0x00000042   Code   RO         3351    i.USART_ITConfig    stm32f0xx_usart.o
+    0x080011e4   0x000000f0   Code   RO         3352    i.USART_Init        stm32f0xx_usart.o
+    0x080012d4   0x0000000a   Code   RO         3364    i.USART_ReceiveData  stm32f0xx_usart.o
+    0x080012de   0x00000008   Code   RO         3369    i.USART_SendData    stm32f0xx_usart.o
+    0x080012e6   0x0000000e   Code   RO         3985    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x080012f4   0x00000002   Code   RO         3986    i.__scatterload_null  mc_p.l(handlers.o)
+    0x080012f6   0x0000000e   Code   RO         3987    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x08001304   0x0000005c   Code   RO         3728    i.a7139_GPIO_Init   a7139.o
+    0x08001360   0x00000002   Code   RO         3870    i.a7139_recv_handle  a7139_api.o
     0x08001362   0x00000002   PAD
-    0x08001364   0x000000c8   Code   RO          436    i.build_wakeup_msg  sleep_wake.o
-    0x0800142c   0x00000030   Code   RO          526    i.cal_crc16         crc16.o
-    0x0800145c   0x000000e4   Code   RO          437    i.cmd_handle        sleep_wake.o
-    0x08001540   0x0000002c   Code   RO          527    i.crc_finish        crc16.o
-    0x0800156c   0x0000003c   Code   RO          528    i.crc_step          crc16.o
-    0x080015a8   0x00000034   Code   RO          438    i.data_clean        sleep_wake.o
-    0x080015dc   0x0000004c   Code   RO          356    i.data_into_buffer  app_msg.o
-    0x08001628   0x0000002c   Code   RO          357    i.get_usart_buffer_ops  app_msg.o
+    0x08001364   0x000000c8   Code   RO          359    i.build_wakeup_msg  sleep_wake.o
+    0x0800142c   0x00000030   Code   RO          446    i.cal_crc16         crc16.o
+    0x0800145c   0x000000e4   Code   RO          360    i.cmd_handle        sleep_wake.o
+    0x08001540   0x0000002c   Code   RO          447    i.crc_finish        crc16.o
+    0x0800156c   0x0000003c   Code   RO          448    i.crc_step          crc16.o
+    0x080015a8   0x00000034   Code   RO          361    i.data_clean        sleep_wake.o
+    0x080015dc   0x0000004c   Code   RO          298    i.data_into_buffer  app_msg.o
+    0x08001628   0x0000002c   Code   RO          299    i.get_usart_buffer_ops  app_msg.o
     0x08001654   0x00000050   Code   RO          198    i.main              main.o
-    0x080016a4   0x00000028   Code   RO          439    i.report_timeout_to_master  sleep_wake.o
-    0x080016cc   0x0000000e   Code   RO          441    i.send_rf_cmd_to_master  sleep_wake.o
+    0x080016a4   0x00000028   Code   RO          362    i.report_timeout_to_master  sleep_wake.o
+    0x080016cc   0x0000000e   Code   RO          364    i.send_rf_cmd_to_master  sleep_wake.o
     0x080016da   0x00000002   PAD
-    0x080016dc   0x0000008c   Code   RO          442    i.tag_send_list_add  sleep_wake.o
-    0x08001768   0x00000078   Code   RO          443    i.tag_send_list_remove  sleep_wake.o
-    0x080017e0   0x00000038   Code   RO          444    i.tag_timeout_handler  sleep_wake.o
-    0x08001818   0x00000028   Code   RO          358    i.uart_buffer_clean  app_msg.o
-    0x08001840   0x00000080   Code   RO          359    i.usart_data_handle  app_msg.o
-    0x080018c0   0x00000034   Code   RO          360    i.usart_msg_handle  app_msg.o
-    0x080018f4   0x00000018   Data   RO         3812    .constdata          a7139.o
-    0x0800190c   0x00000020   Data   RO         4066    Region$$Table       anon$$obj.o
+    0x080016dc   0x0000008c   Code   RO          365    i.tag_send_list_add  sleep_wake.o
+    0x08001768   0x00000078   Code   RO          366    i.tag_send_list_remove  sleep_wake.o
+    0x080017e0   0x00000038   Code   RO          367    i.tag_timeout_handler  sleep_wake.o
+    0x08001818   0x00000028   Code   RO          300    i.uart_buffer_clean  app_msg.o
+    0x08001840   0x00000080   Code   RO          301    i.usart_data_handle  app_msg.o
+    0x080018c0   0x00000034   Code   RO          302    i.usart_msg_handle  app_msg.o
+    0x080018f4   0x00000018   Data   RO         3729    .constdata          a7139.o
+    0x0800190c   0x00000020   Data   RO         3983    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x000005a0, Max: 0x00002000, ABSOLUTE)
@@ -1378,14 +1378,14 @@ Memory Map of the image
 
     0x20000000   0x00000014   Data   RW          155    .data               system_stm32f0xx.o
     0x20000014   0x0000000c   Data   RW          199    .data               main.o
-    0x20000020   0x00000009   Data   RW          362    .data               app_msg.o
-    0x20000029   0x00000006   Data   RW          446    .data               sleep_wake.o
-    0x2000002f   0x00000010   Data   RW         2068    .data               stm32f0xx_rcc.o
+    0x20000020   0x00000009   Data   RW          304    .data               app_msg.o
+    0x20000029   0x00000006   Data   RW          369    .data               sleep_wake.o
+    0x2000002f   0x00000010   Data   RW         1985    .data               stm32f0xx_rcc.o
     0x2000003f   0x00000001   PAD
-    0x20000040   0x00000064   Data   RW         3813    .data               a7139.o
-    0x200000a4   0x00000052   Zero   RW          361    .bss                app_msg.o
-    0x200000f6   0x000000aa   Zero   RW          445    .bss                sleep_wake.o
-    0x200001a0   0x00000400   Zero   RW          600    STACK               startup_stm32f0xx.o
+    0x20000040   0x00000064   Data   RW         3730    .data               a7139.o
+    0x200000a4   0x00000052   Zero   RW          303    .bss                app_msg.o
+    0x200000f6   0x000000aa   Zero   RW          368    .bss                sleep_wake.o
+    0x200001a0   0x00000400   Zero   RW          517    STACK               startup_stm32f0xx.o
 
 
 ==============================================================================
@@ -1395,25 +1395,25 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1438         74         24        100          0      11284   a7139.o
-       446         26          0          0          0       3859   a7139_api.o
-       340         32          0          9         82      89200   app_msg.o
-       244         24          0          0          0       1732   bsp_usart2.o
-       152         14          0          0          0       1800   crc16.o
-       444         56          0         12          0      93560   main.o
-      1142         90          0          6        170       7533   sleep_wake.o
+      1438         74         24        100          0      11452   a7139.o
+       446         26          0          0          0       3923   a7139_api.o
+       340         32          0          9         82       4976   app_msg.o
+       244         24          0          0          0       1764   bsp_usart2.o
+       152         14          0          0          0       1832   crc16.o
+       444         56          0         12          0      94696   main.o
+      1142         90          0          6        170       6537   sleep_wake.o
         28          8        192          0       1024        560   startup_stm32f0xx.o
-        52         12          0          0          0       1052   stm32f0xx_exti.o
-       238          0          0          0          0       3251   stm32f0xx_gpio.o
-        46          0          0          0          0      31381   stm32f0xx_it.o
-        68         34          0          0          0       2290   stm32f0xx_iwdg.o
-       112          6          0          0          0        868   stm32f0xx_misc.o
-       428         34          0         16          0       2717   stm32f0xx_rcc.o
-       466         10          0          0          0       6181   stm32f0xx_usart.o
-       336         24          0         20          0       1441   system_stm32f0xx.o
+        52         12          0          0          0       1068   stm32f0xx_exti.o
+       238          0          0          0          0       3299   stm32f0xx_gpio.o
+        46          0          0          0          0      31465   stm32f0xx_it.o
+        68         34          0          0          0       2330   stm32f0xx_iwdg.o
+       112          6          0          0          0        884   stm32f0xx_misc.o
+       428         34          0         16          0       2757   stm32f0xx_rcc.o
+       466         10          0          0          0       6261   stm32f0xx_usart.o
+       336         24          0         20          0       1473   system_stm32f0xx.o
 
     ----------------------------------------------------------------------
-      5994        444        248        164       1276     258709   Object Totals
+      5994        444        248        164       1276     175277   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         14          0          0          1          0          0   (incl. Padding)
 
@@ -1455,8 +1455,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      6196        460        248        164       1276     255173   Grand Totals
-      6196        460        248        164       1276     255173   ELF Image Totals
+      6196        460        248        164       1276     171741   Grand Totals
+      6196        460        248        164       1276     171741   ELF Image Totals
       6196        460        248        164          0          0   ROM Totals
 
 ==============================================================================

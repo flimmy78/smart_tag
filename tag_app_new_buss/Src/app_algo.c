@@ -79,12 +79,19 @@ void system_Goto_sleep(void)
 		SystemSleep_wakeBy_WorAndKey();
 	}else if(system_flag.rf_pwr_time_sec>0 || system_flag.led_pwr_time_sec>0)
 	{
+		uint8 msg_data[16];
+		
 		SystemSleep_s(system_flag.sys_pwr_time_sec); 
+		
+		memset(msg_data, 0, 16);
+	  sprintf(msg_data, "sleep-%d",system_flag.sys_pwr_time_sec);
+		sys_info_print(msg_data, strlen(msg_data));
 	}
 	/*if wakeup by key then do nothing*/
 	if(system_flag.wakeup_except_rtc)
 	{
 		system_flag.wakeup_except_rtc = 0;
+		sys_info_print("[wakeup bykey]", 14);
 		return;
 	}
 	/*check RF RTC sleep timer*/
@@ -119,8 +126,6 @@ void system_Goto_sleep(void)
 static void App_data_Init(void)
 {
     RfDataInit();
-	
-    memcpy(&tag_mac_Addr[0],(uint8*)STM32_UID_ADDR,8);
 	
     tag_flash_info.short_addr   = DEFAULT_SHORTADDR;          //shortAddr
 	  tag_flash_info.pan_id       = DEFAULT_PANID;              //panId
@@ -169,6 +174,16 @@ void App_init_process(void)
 	/*clear qrcode and soft update flag*/
 	if(tag_flash_info.qr_set_flag == SYS_PARA_MAGIC_NUM || tag_flash_info.update_software_flag == SYS_PARA_MAGIC_NUM) 
 	{
+		if(tag_flash_info.update_software_flag == SYS_PARA_MAGIC_NUM)
+		{ 
+			uint8 gui_data[16];	
+			memset(backgroud, 0, 1024);
+		  item_show_msg("SOFTWARE--UPDATE", 16, 1, FALSE, 1);
+	    memset(gui_data, 0, 16);
+	    sprintf(gui_data, "VERSION-%d", (uint8)APP_SOFT_VERSION);
+			item_show_msg(gui_data,           16, 2, TRUE, 0);
+			Delay100us(20000);
+	  }
 		tag_flash_info.qr_set_flag = 0;
 		tag_flash_info.update_software_flag = 0;
 		
@@ -198,7 +213,9 @@ void App_init_process(void)
     update_screen_id(2);
 	}
 	
-	A7139_SetSleepTime(3);
+	//AppRF_turn(STANDBY_INIT);
+	
+	A7139_SetSleepTime(5);
 	
 }
 
@@ -278,7 +295,7 @@ void Key_detect_Run(void)
 	/*check if some key is press*/
 	if(system_flag.key_press > 0) 
 	{
-		Delay100us(100);
+		Delay100us(1000);
 	}
   else return;
 	
@@ -337,4 +354,19 @@ void App_Maintance(void)
 	}
 }
 
+/*
+ *update software ready state and turn to iap to update
+ */
+
+void tag_app_update(void)
+{uint8 data[50];
+	Flash_ReadTagInfo();
+	tag_flash_info.update_software_flag = SYS_PARA_MAGIC_NUM;
+	tag_flash_info.software_crc =  cal_crc16((uint8*)STORE_APP_UPDATE_ADDR, 0x400*28);
+	 
+		sprintf(data, "crc-%.2x-%.2x", (uint8)(tag_flash_info.software_crc>>8),(uint8)(tag_flash_info.software_crc));
+		sys_info_print(data, strlen(data));		
+	Flash_SaveTagInfo();
+	system_reset();
+}
 

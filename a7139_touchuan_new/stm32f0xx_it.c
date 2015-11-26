@@ -79,6 +79,7 @@ void EXTI0_1_IRQHandler(void)
   {
 		//has_data_to_recv =1;
 		a7139_recv_handle();
+		dis_play_led(LED_GREEN);
 		EXTI_ClearITPendingBit(A7139_GDO1_EXTI_LINE);
   }
 }

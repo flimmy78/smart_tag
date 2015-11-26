@@ -96,26 +96,39 @@ void WakeUp_Init(void)
   lcd_sleep_mode();
 	
 	a7139_GPIO_Init();
-
+   
 	//GPIO_Exti_Init();
 	//
+	
+	
+	/*读取系统记录信息*/
+	Flash_ReadTagInfo();
+	Flash_ReadTagState();
+	
 #ifdef PRINT_DEBUG
 	USART2_Init();
 #endif
+
+	system_flag.sys_sleep = 0;
 	
 }
 
 
 void SystemSleep_s(uint32 sec)
 {
-	if(sec>0)  generate_alarm_Interrupt(sec);
+		
 	/* low power configration*/
-	a7139_entry_sleep_mode();
+	a7139_entry_sleep_mode();	
+	
+  sys_info_print("[RTC Sleep]", 11);
 	Sleep_Init();
+
+	if(sec>0)  generate_alarm_Interrupt(sec);	
+	system_flag.sys_sleep = 1;
   PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
-	WakeUp_Init();
-	a7139_wake_up_from_sleep_mode();
 	if(sec > 0) cancel_alarm_Interrupt();
+	a7139_wake_up_from_sleep_mode();
+	
 }
 
 
@@ -126,15 +139,12 @@ void SystemSleep_wakeBy_WorAndKey(void)
 
 	sys_info_print("[Enter WOR]", 11);
 	Sleep_Init();
-	system_flag.sys_wor_sleep = 1;
+	system_flag.sys_sleep = 1;
 	PWR_EnterSTOPMode(PWR_Regulator_LowPower, PWR_STOPEntry_WFI);
-	
-	WakeUp_Init();
 	
 	cancel_alarm_Interrupt();
 	
 	WOR_disable();
 	
-	system_flag.sys_wor_sleep = 0;
 }
 

@@ -21,13 +21,14 @@ uint8 program_move(uint16 crc)
 	uint32_t addr_dst = APPLICATION_ADDRESS;
 	
   FLASH_If_Init();
-	FLASH_If_Erase(APP_ERCODE_ADDRESS);
-	FLASH_If_Write((__IO uint32_t* )&addr_dst, (uint32_t*)addr_src ,(0x400/4*29));
+	FLASH_If_Erase(APPLICATION_ADDRESS);
+	FLASH_If_Write((__IO uint32_t* )&addr_dst, (uint32_t*)addr_src ,(0x400/4*28));
 	FLASH_Lock();
-	app_crc = cal_crc16((uint8*)APPLICATION_ADDRESS, 0x400*29);
+	app_crc = cal_crc16((uint8*)APPLICATION_ADDRESS, 0x400*28);
 	if(crc == app_crc) return 0;
 	return 1;
 }
+	uint16 software_crc_get = 0;
 int main(void)
 {
   
@@ -58,7 +59,8 @@ int main(void)
 	/*check if soft update flag is set*/
 	if(SYS_PARA_MAGIC_NUM == tag_info.update_software_flag)
 	{
-		if(tag_info.software_crc == cal_crc16((uint8*)APP_ERCODE_ADDRESS, 0x400*29))
+		software_crc_get =  cal_crc16((uint8*)APP_ERCODE_ADDRESS, 0x400*28);
+		if(tag_info.software_crc == software_crc_get)
 		{
 		 if(1 == program_move(tag_info.software_crc))
 		 {
@@ -170,7 +172,7 @@ const uint8_t logo[1024] __attribute__((at(0x08000800)))          = {
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
 };
-const uint8_t logo1[2024] __attribute__((at(0x08000C00)))          = {
+const uint8_t logo1[2010] __attribute__((at(0x08000C00)))          = {
 /*-- 0 A  --*/
  0x00,0x00,0xC0,0x38,0xE0,0x00,0x00,0x00,0x20,0x3C,0x23,0x02,0x02,0x27,0x38,0x20,
 /*-- 1 B  --*/

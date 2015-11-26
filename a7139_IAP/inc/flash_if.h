@@ -34,14 +34,14 @@
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
-#define USER_FLASH_LAST_PAGE_ADDRESS  0x0800F800
+#define USER_FLASH_LAST_PAGE_ADDRESS  0x08008400
 #define USER_FLASH_END_ADDRESS        0x0800FFFF /* 64 KBytes */
 #define FLASH_PAGE_SIZE               0x400      /* 1 Kbytes */
 
 /* define the address from where user application will be loaded,
    the application address should be a start sector address */
 #define APPLICATION_ADDRESS     (uint32_t)0x08001400
-#define  APP_ERCODE_ADDRESS     (uint32_t)0x08008800
+#define  APP_ERCODE_ADDRESS     0x08008800
 /* Get the number of Sector from where the user program will be loaded */
 #define  FLASH_PAGE_NUMBER      (uint32_t)((APPLICATION_ADDRESS - 0x08000000) >> 12)
 

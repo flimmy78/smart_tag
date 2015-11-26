@@ -9,6 +9,8 @@
 "..\obj\usr_lowpower.o"
 "..\obj\crc16.o"
 "..\obj\menu.o"
+"..\obj\engineer_mode.o"
+"..\obj\pmw_led.o"
 "..\obj\app_msg.o"
 "..\obj\pkt_build.o"
 "..\obj\app_algo.o"

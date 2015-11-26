@@ -383,99 +383,68 @@ void App_RecvWriteFirmwareToflash(uint8 *pdata, uint8 length)
     uint8  fill_offset;
     uint16  wrlasttmp ;
     uint8  *dataToWrite = pdata + 2;
+    
+	  uint8 data[50];
+		sprintf(data, "software_seq-%d", slice);
+		sys_info_print(data, strlen(data));		
 
     if(((slice&0x3fff)-1)== firmware.sliceseq) //recv by seq.
     {  
-			  uint8 wrtmplen = length-3;//?????,max value is 108
-        //cur_slice = firmware.sliceseq; //pos of prior received slice.
-        firmware.sliceseq = slice ;
-      
-       
-        
-       // WD_KICK();
-        
-        if((firmware.sliceseq & 0x8000)!=0)// is the last slice ,.,.
-        {
-					if(((firmware.writelen + screen.writelen + wrtmplen) == firmware.length)&&(*(pdata+length-1)==TAIL))
-					{
-						tag_state.recvflag = TRUE;
-            //WD_KICK();
+			uint8 wrtmplen = length-3;//max value is 108
+     
+      firmware.sliceseq = slice ;
+   
+			if(*(pdata+length-1)==TAIL)
+		  {
+			  tag_state.recvflag = TRUE;
+			
+			  /*update slice check_sum*/
+		  	check_sum += sum_check_cal32(dataToWrite,wrtmplen);	
                         
-					  //check_sum += sum_check_cal32(dataToWrite,wrtmplen);	
-                        
-            if((screen.writelen + wrtmplen) >= FLUSH_BUF_SIZE){ 
-            if(screen.writelen %4){
-							fill_offset = 4 - screen.writelen %4; 
-							memcpy(&screen.buf[screen.writelen], dataToWrite, fill_offset);
-              screen.writelen += fill_offset;
-              wrtmplen -= fill_offset;
-              dataToWrite = dataToWrite + fill_offset;
-            }
-            //store_firmware_slice_to_flash(firmware.writelen,screen.buf,screen.writelen);
-                      
-		        firmware.writelen += screen.writelen;
-            screen.writelen = 0;
-		      }
-
-		      memcpy(&screen.buf[screen.writelen], dataToWrite, wrtmplen);
-		      screen.writelen += wrtmplen;
-                        
-          //bytes of last slice may not Four byte aligned ,NOT forget to handle it...
-          wrlasttmp = (screen.writelen%4)?(screen.writelen+(4-screen.writelen%4)):screen.writelen;
-                        
-          //store_firmware_slice_to_flash(firmware.writelen,screen.buf,wrlasttmp);
-                                           
-          //led_spark_indicate_firmware_finish();
-                        
-          if(firmware.recv_check_sum == check_sum){//????????
+			  if((screen.writelen + wrtmplen) >= SCREEN_RECVBUF_SIZE){ 
+			  	fill_offset = SCREEN_RECVBUF_SIZE - screen.writelen; 
+			  	memcpy(&screen.buf[screen.writelen], dataToWrite, fill_offset);
+			 	 /// //store flash 2048
+					store_software_copy(&screen.buf[0], SCREEN_RECVBUF_SIZE, firmware.writelen);
+					firmware.writelen += SCREEN_RECVBUF_SIZE;
+					
+			  	screen.writelen =  wrtmplen - fill_offset;
+			  	memcpy(&screen.buf[0], dataToWrite + fill_offset, screen.writelen);
+		    }else{
+			  	memcpy(&screen.buf[screen.writelen], dataToWrite, wrtmplen);
+				  screen.writelen += wrtmplen;
+        }                  
+			
+			  req_slice = firmware.sliceseq | 0x8000; 
+			  /*check if slice is end*/
+			  if((firmware.sliceseq & 0x8000) != 0)
+		  	{
+				//////////storel flash screen.writelen
+					store_software_copy(&screen.buf[0], screen.writelen, firmware.writelen);
+					firmware.writelen += screen.writelen;
+					
+			    if(firmware.recv_check_sum == check_sum){
              tag_state.ackflag |= (uint16)(1<<FLAG_FMWARE_OK);//0x0100;
           }else{   
              tag_state.ackflag |= (uint16)(1<<FLAG_FMWARE_FAIL);//0x0200;
-          }               
-          //update_ack_info(tag_state.ackflag);
+          } 
+				 
+          update_ack_info(tag_state.ackflag);
                         
-          req_slice = 0; //reset. and finish,?????standby??
+          req_slice = 0; 
           tag_state.state = STANDBY_INIT;
-	    	}
-				else{
-          tag_state.state = STANDBY_INIT;////re-get ,it seems to be last request garbage!@,
-				}
-	}
-	else //not the last slice
-	{
-		if(*(pdata+length-1)==TAIL)
-		{
-			tag_state.recvflag = TRUE;
-			check_sum += sum_check_cal32(dataToWrite,wrtmplen);	
-                        
-			if((screen.writelen + wrtmplen) >= FLUSH_BUF_SIZE){ 
-					if(screen.writelen %4){
-							fill_offset = 4 - screen.writelen %4; 
-							memcpy(&screen.buf[screen.writelen], dataToWrite, fill_offset);
-							screen.writelen += fill_offset;
-							wrtmplen -= fill_offset;
-							dataToWrite = dataToWrite + fill_offset;
-					}
-					
-          //store_firmware_slice_to_flash(firmware.writelen,screen.buf,screen.writelen);
-                            
-		      firmware.writelen += screen.writelen;
-          screen.writelen = 0;
+			  }
+	  	}
+	  	else //TAIL check error
+			{        
+			 tag_state.state = STANDBY_INIT; 
 		  }
-
-			memcpy(&screen.buf[screen.writelen], dataToWrite, wrtmplen);
-			screen.writelen += wrtmplen;
-                        
-			//cur_slice = firmware.sliceseq; //update screen slice received.
-			req_slice = firmware.sliceseq | 0x8000; 
-		}
-		else{        
-			tag_state.state = STANDBY_INIT; ////re-get ,for slice check has error!
-		}
-	}}else{
-     tag_state.recvflag = FALSE;
-	  tag_state.state = STANDBY_INIT; //reget data.
-  }
+	  }
+		else //slice error
+		{
+      tag_state.recvflag = FALSE;
+	    tag_state.state = STANDBY_INIT; 
+    }
 }
 
 static void App_recvAckRsp(uint8* pData)
@@ -588,6 +557,8 @@ static void App_recvAckRsp(uint8* pData)
                 {
                      tag_state.ackflag &= ~(uint16)(1<<FLAG_FMWARE_OK);
                      //go_to_system_reload(firmware.writelen+screen.writelen,firmware.soft_version);
+									sys_info_print("get-software-ok...", 18);
+									tag_app_update();
                 }
                 else
                 {

@@ -27,6 +27,9 @@ static uint8_t RTC_ByteToBcd2(uint8_t Value);
 ErrorStatus RTC_EnterInitMode(void);
 static uint8_t RTC_Bcd2ToByte(uint8_t Value);
 ErrorStatus RTC_WaitForSynchro(void);
+
+void RTC_LSE_Config(void);
+
 /*******************************************************************/
 
 
@@ -81,6 +84,8 @@ void generate_alarm_Interrupt(uint32 sec)
 	uint8 min;  
 	uint8 second;
   
+	RTC_LSE_Config();
+	
 	RTC_GetTime(RTC_Format_BIN, &RTC_TimeNow);
 	sec_now = RTC_TimeNow.RTC_Hours*3600 + RTC_TimeNow.RTC_Minutes*60 + RTC_TimeNow.RTC_Seconds;
 	sec += sec_now;
@@ -112,7 +117,7 @@ void RTC_setTime(uint8 Hr, uint8 Min, uint8 Sec )
  
   }
 }
-void RTC_LSE_Config()
+void RTC_LSE_Config(void)
 {
   
 	RTC_InitTypeDef   RTC_InitStructure;
@@ -156,7 +161,7 @@ void RTC_LSE_Config()
   NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
   NVIC_Init(&NVIC_InitStructure);
   
-	ConfigRTC_Alarm(0, 0, 10, 0);
+	//ConfigRTC_Alarm(0, 0, 10, 0);
 }
 
 

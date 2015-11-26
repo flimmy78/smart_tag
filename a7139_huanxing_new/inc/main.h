@@ -28,9 +28,9 @@ typedef enum {TRUE = 0, FALSE = !TRUE} APP_FLAG;
 
 /*****Define channel ******/
 /*RF CHAN definition*/
-#define FREQ_433_BUGL  0x0021D405 // 0x0021D805
+#define FREQ_433_BUGL  0x0021D405//0x0021D405//0x0021D405 // 0x0021D805
 #define FREQ_433_JOIN  0x0021E66B
-#define FREQ_433_BUSS  0x0021F205
+#define FREQ_433_BUSS  0x0021F7D1
 
 #define FRAME_PKT_LEN    64
 

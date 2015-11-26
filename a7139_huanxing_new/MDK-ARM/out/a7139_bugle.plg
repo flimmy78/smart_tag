@@ -1,9 +1,139 @@
-<html>
-<body>
-<pre>
-<h1>µVision Build Log</h1>
-<h2>Project:</h2>
-E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\MDK-ARM\STM32F051R8_Demo.uvproj
-Project File Date:  09/25/2015
-
-<h2>Output:</h2>
+Build target 'tag_wakeup_model'
+compiling stm32f0xx_it.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\stm32f0xx_it.c(64): warning:  #223-D: function "SysTime_handle" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\stm32f0xx_it.c(81): warning:  #223-D: function "a7139_recv_handle" declared implicitly
+compiling system_stm32f0xx.c...
+compiling main.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\main.c(19): warning:  #1295-D: Deprecated declaration IWDG_Init - give arg types
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\main.c(20): warning:  #1295-D: Deprecated declaration Feed_IWDG - give arg types
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\main.c(30): warning:  #223-D: function "InitRF" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\main.c(51): warning:  #223-D: function "Tag_state_check" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\main.c(93): warning:  #223-D: function "tag_timeout_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\main.c(100): warning:  #223-D: function "uart_buffer_clean" declared implicitly
+compiling app_msg.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\app_msg.c(14): warning:  #223-D: function "memcpy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\app_msg.c(81): warning:  #223-D: function "cmd_handle" declared implicitly
+compiling sleep_wake.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(79): warning:  #223-D: function "A7139_SetChn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(84): warning:  #223-D: function "memset" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(147): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(177): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(181): warning:  #223-D: function "A7139_Fill_FIFO" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(203): warning:  #223-D: function "A7139_SetChn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(189): warning:  #177-D: variable "ret" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\sleep_wake\sleep_wake.c(238): warning:  #223-D: function "USART2_Send" declared implicitly
+compiling crc16.c...
+compiling BSP_USART2.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\src\BSP_USART2.c(63): warning:  #223-D: function "usart_data_handle" declared implicitly
+compiling stm32f0xx_adc.c...
+compiling stm32f0xx_cec.c...
+compiling stm32f0xx_comp.c...
+compiling stm32f0xx_crc.c...
+compiling stm32f0xx_dac.c...
+compiling stm32f0xx_dbgmcu.c...
+compiling stm32f0xx_dma.c...
+compiling stm32f0xx_exti.c...
+compiling stm32f0xx_flash.c...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_i2c.c...
+compiling stm32f0xx_iwdg.c...
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_pwr.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_rtc.c...
+compiling stm32f0xx_spi.c...
+compiling stm32f0xx_syscfg.c...
+compiling stm32f0xx_tim.c...
+compiling stm32f0xx_usart.c...
+compiling stm32f0xx_wwdg.c...
+compiling a7139.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139.c(131): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139.c(442): warning:  #550-D: variable "fb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139.c(442): warning:  #550-D: variable "fcd" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139.c(443): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139.c(444): warning:  #550-D: variable "vcb" was set but never used
+compiling a7139_api.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(57): warning:  #223-D: function "Delay_ms" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(69): warning:  #223-D: function "Delay_ms" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(90): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(111): warning:  #223-D: function "Delay_ms" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(123): warning:  #550-D: variable "value" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(168): warning:  #223-D: function "A7139_WritePageB" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(170): warning:  #223-D: function "Delay_ms" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(139): warning:  #177-D: variable "vb" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(140): warning:  #177-D: variable "vcb" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(140): warning:  #177-D: variable "vccf" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(141): warning:  #177-D: variable "tmp" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(191): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\a7139\a7139_api.c(248): warning:  #223-D: function "Delay_ms" declared implicitly
+linking...
+Program Size: Code=6196 RO-data=248 RW-data=164 ZI-data=1276  
+FromELF: creating hex file...
+".\out\a7139_bugle.axf" - 0 Errors, 37 Warning(s).
+Load "E:\\123\\±êÇ©²âÊÔ\\tag_soft\\a7139_huanxing_new\\MDK-ARM\\out\\a7139_bugle.axf" 
+Set JLink Project File to "E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051R8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051R8
+VTarget = 3.293V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "E:\\123\\±êÇ©²âÊÔ\\tag_soft\\a7139_huanxing_new\\MDK-ARM\\out\\a7139_bugle.axf" 
+Set JLink Project File to "E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051R8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051R8
+VTarget = 3.274V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'tag_wakeup_model'
+linking...
+Program Size: Code=6196 RO-data=248 RW-data=164 ZI-data=1276  
+FromELF: creating hex file...
+".\out\a7139_bugle.axf" - 0 Errors, 0 Warning(s).

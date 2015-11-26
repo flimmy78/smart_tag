@@ -91,6 +91,7 @@ const uint32_t LED_GPIO_PIN[4] = {LED_RED_PIN,  LED_GREEN_PIN,  LED_YELLOW_PIN, 
 
 GPIO_TypeDef*  LED_GPIO_PORT[4]= {LED_RED_PORT, LED_GREEN_PORT, LED_YELLOW_PORT, LED_BLUE_PORT};
 
+uint8_t        LED_PIN_SOURCE[4] ={LED_RED_PIN_SOURCE, LED_GREEN_PIN_SOURCE,LED_YELLOW_PIN_SOURCE, LED_BLUE_PIN_SOURCE};
 uint8 led_save[4] = {0};
 
 
@@ -437,7 +438,7 @@ void Board_Init(void)
 	
 	GPIO_Exti_Init();
 	
- 
+  memcpy(&tag_mac_Addr[0],(uint8*)STM32_UID_ADDR,8);
 }
 
 

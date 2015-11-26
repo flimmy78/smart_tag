@@ -1,8 +1,6 @@
 
 #include "bsp.h"
 
-
-
 //ËÑÑ°ÍøÂç³õÊ¼»¯
 static void App_Find_Init(void)
 {
@@ -23,7 +21,7 @@ static void App_Find_Run(void)
 {
 	if(tag_state.sendflag)
 	{
-		if(tag_state.checkfactor == TIMEOUT_RETRY_FIND)
+		if(tag_state.checkfactor >= TIMEOUT_RETRY_FIND)
 		{
 			item_show_msg("---FAILED-JOIN--", 16, 2,TRUE, 1);
 			tag_state.state = IDLE_RUN;
@@ -90,7 +88,6 @@ static void App_Listen_Run(void)
 		tag_state.sleepflag  = FALSE;		
 		tag_state.state = STANDBY_INIT;
 		AppRF_turn(STANDBY_INIT);
-		system_flag.sys_wor_sleep = 0;
 		system_flag.sys_wake_up = 0;
 		test_recv_time(0);
 		tag_state.is_need_load_last_screen = 1;

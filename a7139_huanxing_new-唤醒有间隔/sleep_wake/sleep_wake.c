@@ -23,9 +23,9 @@ extern uint8 tag_check_flag;
 void tag_timeout_handler(void) //called per 1ms
 {
 	send_wait++;
-	if(send_wait>6000) send_wait = 0;
+	if(send_wait>6500) send_wait = 0;
 		/*send  msg per 6ms*/
-	if(sysTime1ms%6 == 0 && send_wait<5000)
+	if(sysTime1ms%6 == 0 && send_wait<5500)
 	{
 		send_state = 1;
 	}

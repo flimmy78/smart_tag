@@ -7,7 +7,7 @@ BasicRfCfg_t RfConfig = {0};
 wake_tag_send_t wake_tag_list = {0};
 
 uint8 send_state = 0;
-uint8 send_msg_buf[64] = {0};
+uint8 send_msg_buf[64] = {0};//{8,1,2,3,4,5,6,7,0xaa};//{0};
 
 static void send_rf_cmd_to_master(pkt_master_t* resp);
 

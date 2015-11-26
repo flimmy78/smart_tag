@@ -1,0 +1,405 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\STM32F051R8_Demo.uvproj
+Project File Date:  10/13/2015
+
+<h2>Output:</h2>
+Build target 'a7139_touchuan'
+compiling stm32f0xx_it.c...
+..\stm32f0xx_it.c(64): warning:  #223-D: function "SysTime_handle" declared implicitly
+..\stm32f0xx_it.c(81): warning:  #223-D: function "a7139_recv_handle" declared implicitly
+..\stm32f0xx_it.c(82): warning:  #223-D: function "dis_play_led" declared implicitly
+..\stm32f0xx_it.c(82): error:  #20: identifier "LED_GREEN" is undefined
+..\stm32f0xx_it.c(92): warning:  #223-D: function "handler_data" declared implicitly
+".\out\A7139_touchuan.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'a7139_touchuan'
+compiling stm32f0xx_it.c...
+..\stm32f0xx_it.c(64): warning:  #223-D: function "SysTime_handle" declared implicitly
+..\stm32f0xx_it.c(81): warning:  #223-D: function "a7139_recv_handle" declared implicitly
+..\stm32f0xx_it.c(91): warning:  #223-D: function "handler_data" declared implicitly
+linking...
+Program Size: Code=6372 RO-data=248 RW-data=168 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 3 Warning(s).
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6372 RO-data=248 RW-data=168 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6372 RO-data=248 RW-data=168 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+***JLink Error: Could not power up debug port: Control/Status register reads D0000000
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051C8
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051C8
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6372 RO-data=248 RW-data=168 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6372 RO-data=248 RW-data=168 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6372 RO-data=248 RW-data=168 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6372 RO-data=248 RW-data=168 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Build target 'a7139_touchuan'
+compiling main.c...
+..\src\main.c(21): warning:  #1295-D: Deprecated declaration IWDG_Init - give arg types
+..\src\main.c(22): warning:  #1295-D: Deprecated declaration Feed_IWDG - give arg types
+..\src\main.c(66): warning:  #223-D: function "uart_buffer_clean" declared implicitly
+..\src\main.c(81): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(88): warning:  #223-D: function "A7139_SetChn" declared implicitly
+..\src\main.c(100): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(108): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(109): warning:  #223-D: function "rf_get_usart_buffer_ops" declared implicitly
+..\src\main.c(110): warning:  #223-D: function "USART2_Send" declared implicitly
+..\src\main.c(120): warning:  #223-D: function "get_usart_buffer_ops" declared implicitly
+..\src\main.c(125): warning:  #223-D: function "Model_Config" declared implicitly
+..\src\main.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\src\main.c(162): warning:  #223-D: function "memcpy" declared implicitly
+..\src\main.c(163): warning:  #223-D: function "USART2_Send" declared implicitly
+compiling a7139_api.c...
+..\a7139\a7139_api.c(57): warning:  #223-D: function "Delay_ms" declared implicitly
+..\a7139\a7139_api.c(69): warning:  #223-D: function "Delay_ms" declared implicitly
+..\a7139\a7139_api.c(90): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+..\a7139\a7139_api.c(112): warning:  #223-D: function "Delay_ms" declared implicitly
+..\a7139\a7139_api.c(142): warning:  #550-D: variable "vb" was set but never used
+..\a7139\a7139_api.c(143): warning:  #177-D: variable "vcb" was declared but never referenced
+..\a7139\a7139_api.c(143): warning:  #177-D: variable "vccf" was declared but never referenced
+..\a7139\a7139_api.c(144): warning:  #177-D: variable "rssi_mask" was declared but never referenced
+..\a7139\a7139_api.c(145): warning:  #177-D: variable "orgVal" was declared but never referenced
+..\a7139\a7139_api.c(201): warning:  #177-D: variable "timeout" was declared but never referenced
+..\a7139\a7139_api.c(203): warning:  #177-D: variable "rssi_value" was declared but never referenced
+..\a7139\a7139_api.c(204): warning:  #177-D: variable "rssi_rts" was declared but never referenced
+..\a7139\a7139_api.c(252): warning:  #223-D: function "cal_crc16" declared implicitly
+..\a7139\a7139_api.c(253): warning:  #223-D: function "nwk_date_turn_to_mac_to_usart" declared implicitly
+..\a7139\a7139_api.c(230): warning:  #550-D: variable "rssi" was set but never used
+..\a7139\a7139_api.c(272): warning:  #223-D: function "Delay_ms" declared implicitly
+linking...
+Program Size: Code=6380 RO-data=248 RW-data=176 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 30 Warning(s).
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6380 RO-data=248 RW-data=176 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Build target 'a7139_touchuan'
+linking...
+Program Size: Code=6380 RO-data=248 RW-data=176 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051C8
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'a7139_touchuan'
+compiling main.c...
+..\src\main.c(21): warning:  #1295-D: Deprecated declaration IWDG_Init - give arg types
+..\src\main.c(22): warning:  #1295-D: Deprecated declaration Feed_IWDG - give arg types
+..\src\main.c(66): warning:  #223-D: function "uart_buffer_clean" declared implicitly
+..\src\main.c(81): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(88): warning:  #223-D: function "A7139_SetChn" declared implicitly
+..\src\main.c(100): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(108): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(109): warning:  #223-D: function "rf_get_usart_buffer_ops" declared implicitly
+..\src\main.c(110): warning:  #223-D: function "USART2_Send" declared implicitly
+..\src\main.c(120): warning:  #223-D: function "get_usart_buffer_ops" declared implicitly
+..\src\main.c(125): warning:  #223-D: function "Model_Config" declared implicitly
+..\src\main.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\src\main.c(162): warning:  #223-D: function "memcpy" declared implicitly
+..\src\main.c(163): warning:  #223-D: function "USART2_Send" declared implicitly
+linking...
+Program Size: Code=6284 RO-data=248 RW-data=176 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 14 Warning(s).
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051C8
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'a7139_touchuan'
+compiling main.c...
+..\src\main.c(21): warning:  #1295-D: Deprecated declaration IWDG_Init - give arg types
+..\src\main.c(22): warning:  #1295-D: Deprecated declaration Feed_IWDG - give arg types
+..\src\main.c(66): warning:  #223-D: function "uart_buffer_clean" declared implicitly
+..\src\main.c(81): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(88): warning:  #223-D: function "A7139_SetChn" declared implicitly
+..\src\main.c(100): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(108): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(109): warning:  #223-D: function "rf_get_usart_buffer_ops" declared implicitly
+..\src\main.c(110): warning:  #223-D: function "USART2_Send" declared implicitly
+..\src\main.c(120): warning:  #223-D: function "get_usart_buffer_ops" declared implicitly
+..\src\main.c(125): warning:  #223-D: function "Model_Config" declared implicitly
+..\src\main.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\src\main.c(162): warning:  #223-D: function "memcpy" declared implicitly
+..\src\main.c(163): warning:  #223-D: function "USART2_Send" declared implicitly
+linking...
+Program Size: Code=6284 RO-data=248 RW-data=176 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 14 Warning(s).
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051C8
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'a7139_touchuan'
+compiling main.c...
+..\src\main.c(21): warning:  #1295-D: Deprecated declaration IWDG_Init - give arg types
+..\src\main.c(22): warning:  #1295-D: Deprecated declaration Feed_IWDG - give arg types
+..\src\main.c(66): warning:  #223-D: function "uart_buffer_clean" declared implicitly
+..\src\main.c(81): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(88): warning:  #223-D: function "A7139_SetChn" declared implicitly
+..\src\main.c(100): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(108): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(109): warning:  #223-D: function "rf_get_usart_buffer_ops" declared implicitly
+..\src\main.c(110): warning:  #223-D: function "USART2_Send" declared implicitly
+..\src\main.c(120): warning:  #223-D: function "get_usart_buffer_ops" declared implicitly
+..\src\main.c(125): warning:  #223-D: function "Model_Config" declared implicitly
+..\src\main.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\src\main.c(165): warning:  #223-D: function "USART2_Send" declared implicitly
+linking...
+Program Size: Code=6300 RO-data=248 RW-data=176 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 13 Warning(s).
+Load "E:\\123\\标签测试\\tag_soft\\a7139_touchuan_new - 标签初始化绑定MAC透传\\MDK-ARM\\out\\A7139_touchuan.axf" 
+Set JLink Project File to "E:\123\标签测试\tag_soft\a7139_touchuan_new - 标签初始化绑定MAC透传\MDK-ARM\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051C8
+VTarget = 3.313V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'a7139_touchuan'
+compiling main.c...
+..\src\main.c(21): warning:  #1295-D: Deprecated declaration IWDG_Init - give arg types
+..\src\main.c(22): warning:  #1295-D: Deprecated declaration Feed_IWDG - give arg types
+..\src\main.c(66): warning:  #223-D: function "uart_buffer_clean" declared implicitly
+..\src\main.c(81): warning:  #223-D: function "InitRF" declared implicitly
+..\src\main.c(88): warning:  #223-D: function "A7139_SetChn" declared implicitly
+..\src\main.c(100): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(108): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+..\src\main.c(109): warning:  #223-D: function "rf_get_usart_buffer_ops" declared implicitly
+..\src\main.c(110): warning:  #223-D: function "USART2_Send" declared implicitly
+..\src\main.c(120): warning:  #223-D: function "get_usart_buffer_ops" declared implicitly
+..\src\main.c(125): warning:  #223-D: function "Model_Config" declared implicitly
+..\src\main.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+..\src\main.c(165): warning:  #223-D: function "USART2_Send" declared implicitly
+linking...
+Program Size: Code=6396 RO-data=248 RW-data=176 ZI-data=5120  
+FromELF: creating hex file...
+".\out\A7139_touchuan.axf" - 0 Errors, 13 Warning(s).

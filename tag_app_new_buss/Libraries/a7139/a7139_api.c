@@ -41,6 +41,8 @@ uint8 A7139_GetRSSI()
 	
 	A7139_RX_Exti(DISABLE);
 	rssi=(A7139_ReadReg(ADC_REG) & 0x00FF);  //ADC[7:0] is the value of RSSI
+	StrobeCMD(CMD_RX);
+	GIO2_wait(1);
 	A7139_RX_Exti(ENABLE);
 	if(rssi<rssi_min) rssi_min = rssi;
 	if(rssi>rssi_max) rssi_max = rssi;
@@ -67,10 +69,10 @@ void a7139_entry_sleep_mode(void)
 *********************************************************************/
 void a7139_wake_up_from_sleep_mode(void)
 {
-	
 	StrobeCMD(CMD_STBY);	//wake up
 	Delay100us(50);			//delay 300us for VDD_D stabilized
 	StrobeCMD(CMD_RX);
+	GIO2_wait(1);
 	A7139_RX_Exti(ENABLE);
 }
 
@@ -230,11 +232,14 @@ ErrorStatus cca_detect(void)
 	
 	return SUCCESS;
 }
+uint8 times = 0;
+	uint16 csma_delay = 0;
+	uint16 delay_max = 1;
 ErrorStatus csma_detect(void)
 {
-	uint8 times = 0;
-	uint8 csma_delay = 0;
-	uint16 delay_max = 1;
+	times = 0;
+	 csma_delay = 0;
+	 delay_max = 1;
 	for(times = 0; times<10; times++)
 	{
 		delay_max = delay_max*2;
@@ -278,17 +283,20 @@ ErrorStatus A7139_Send_Msg(uint8 *buf,uint8 bufSize)
 /*********************************************************************
 ** a7139 recv msg
 *********************************************************************/
+
 void a7139_recv_handle(void)
 {
 	uint8 pkt_len = 0, i;
 	uint8 pkt_tmp[64] = {0};
   uint8 has_msg = 0;
+  uint8 rssi;
 
 #ifdef USE_CRC_MSG
   uint16 crc_value;
   uint16 crc_value_cal;
 #endif
 
+  rssi =(A7139_ReadReg(ADC_REG) & 0x00FF);
 	StrobeCMD(CMD_RFR);		//RX FIFO address pointer reset
 
   A7139_IO_ReSetBit(SCS);
@@ -315,9 +323,13 @@ void a7139_recv_handle(void)
 	
 	A7139_IO_SetBit(SCS);
 	
+	/*for test*/if(has_msg == 1 && pkt_len == 11 && pkt_tmp[1] == 0xe3 && pkt_tmp[2] == 0xe4)
+	{
+		cale_send_and_recv(pkt_tmp, pkt_len, rssi);
+	}
 	if(has_msg == 1) frame_pkt_handle(pkt_tmp, pkt_len, 0);
 	
-	if(system_flag.sys_wor_sleep == 1) return;
+	if(system_flag.sys_sleep == 1) return;
   StrobeCMD(CMD_RX);
 	GIO2_wait(1);
 }

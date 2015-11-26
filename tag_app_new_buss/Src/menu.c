@@ -38,25 +38,13 @@ void tag_test_print(uint16 sleep_time)
 	
 	memset(backgroud, 0, 1024);
 	
-	
+	memset(gui_data, 0, 16);
 	sprintf(gui_data, "TIME-%d",sleep_time);
 	item_show_msg(gui_data, 16, 0, FALSE, 1);
 	
+	memset(gui_data, 0, 16);
 	sprintf(gui_data, "COST-%d",get_test_recv_time());
 	item_show_msg(gui_data, 16, 1, FALSE, 1);
-	
-	item_show_msg("TEST-NEW-1-1", 12, 3, TRUE, 0);
-}
-#endif
-void tag_self_test(void)
-{
-	uint8 gui_data[20];
-	uint8 led = 0;
-	
-	if(system_flag.key_press != 0x05) return;
-	system_flag.key_protect = 1;
-	
-	memset(backgroud, 0, 1024);
 	
 	memset(gui_data, 0, 20);
 	sprintf(gui_data, "%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x", tag_mac_Addr[7],
@@ -68,33 +56,13 @@ void tag_self_test(void)
 																								tag_mac_Addr[1],
 																								tag_mac_Addr[0]);
 	
-	item_show_msg("-MAC-", 5, 1, FALSE, 0);
-	item_show_msg(gui_data, 16, 2, FALSE, 1);
+	item_show_msg(gui_data, 16, 2, FALSE, 0);
 	
-	/*power manage test*/	
-	App_GetEnergy();
 	
-	memset(gui_data, 0, 20);
-	sprintf(gui_data, "POWER-%d.%.2dV", system_flag.sys_power/100, (system_flag.sys_power%100));
-	item_show_msg(gui_data, strlen(gui_data), 3, TRUE, 0);
-	
-	for(led = 0;led<5;led++)
-	{
-		Set_LedOn(led);
-		Delay100us(10000);
-		turn_all_led_off();
-	}
-	
-	system_flag.key_press = 0;
-	system_flag.key_protect = 0;
-	
-	while(system_flag.key_press == 0)
-	{
-		Delay100us(1000);
-	}
-	system_flag.key_press = 0;
-	system_flag.key_protect = 0;
+	item_show_msg("TEST-NEW-1-2", 12, 3, TRUE, 0);
 }
+#endif
+
 
 
 void display_sleep_time(void)

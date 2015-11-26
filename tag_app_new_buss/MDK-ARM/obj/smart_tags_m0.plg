@@ -1,0 +1,1057 @@
+Build target 'smart_tags_m0'
+compiling app_algo.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(30): warning:  #223-D: function "USART2_Send" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(28): warning:  #177-D: variable "i" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(55): warning:  #223-D: function "rand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(79): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(87): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(88): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(148): warning:  #223-D: function "Enter_RX" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(163): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(172): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(181): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(183): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(185): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(213): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(218): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(230): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(286): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(298): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(306): warning:  #223-D: function "key_sync_func" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(337): warning:  #223-D: function "Power_ADC_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(365): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(367): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(368): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=27928 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 22 Warning(s).
+Build target 'smart_tags_m0'
+linking...
+Program Size: Code=27928 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 0 Warning(s).
+Build target 'smart_tags_m0'
+compiling main.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(23): warning:  #223-D: function "load_tag_logo" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(24): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(25): warning:  #223-D: function "tag_self_test" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(27): warning:  #223-D: function "key_state_change" declared implicitly
+compiling system_stm32f0xx.c...
+compiling stm32f0xx_it.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(76): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(92): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(105): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(130): warning:  #223-D: function "WakeUp_Init" declared implicitly
+compiling bsp.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(35): warning:  #223-D: function "len_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(37): warning:  #223-D: function "rf_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(39): warning:  #223-D: function "longdata_wait_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(340): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(433): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(435): warning:  #223-D: function "RTC_LSE_Config" declared implicitly
+compiling BSP_USART2.c...
+compiling usr_rtc.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(124): warning:  #177-D: variable "RTC_TimeStructure" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(127): warning:  #177-D: variable "RTC_AlarmStructure" was declared but never referenced
+compiling usr_lowpower.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(79): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(81): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(87): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(89): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(91): warning:  #223-D: function "LED_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(92): warning:  #223-D: function "Button_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(96): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(106): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(121): warning:  #223-D: function "a7139_entry_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(123): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(126): warning:  #223-D: function "generate_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(129): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(130): warning:  #223-D: function "a7139_wake_up_from_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(138): warning:  #223-D: function "WOR_enable_by_sync" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(140): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(145): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(147): warning:  #223-D: function "WOR_disable" declared implicitly
+compiling crc16.c...
+compiling menu.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Inc\menu.h(5): warning:  #1295-D: Deprecated declaration get_test_recv_time - give arg types
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(42): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(72): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(74): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(83): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(84): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(107): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(110): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(114): warning:  #223-D: function "sprintf" declared implicitly
+compiling engineer_mode.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(17): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(28): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(30): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(40): warning:  #223-D: function "Led_toggle" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(62): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(71): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(75): warning:  #223-D: function "App_GetEnergy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(78): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(85): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(86): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(113): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(132): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(142): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(146): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(152): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(153): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(51): warning:  #177-D: variable "led" was declared but never referenced
+compiling pmw_led.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(176): warning:  #177-D: variable "pmw_value_current" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(256): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_msg.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(107): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(116): warning:  #223-D: function "srand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(122): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(184): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(318): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(370): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(388): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(402): warning:  #223-D: function "sum_check_cal32" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(408): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(423): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(384): warning:  #177-D: variable "wrlasttmp" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(502): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(505): warning:  #223-D: function "tag_test_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(522): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(532): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(539): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(560): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(561): warning:  #223-D: function "tag_app_update" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(566): warning:  #223-D: function "restore_screen_context_data" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(579): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(580): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(602): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(603): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(606): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(626): warning:  #223-D: function "refresh_screen_by_code" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(637): warning:  #223-D: function "update_led_spark_paras" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(646): warning:  #223-D: function "back_up_sleeptime_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(658): warning:  #223-D: function "back_up_reportflag_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(698): warning:  #223-D: function "get_ledn_on" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(741): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(794): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(795): warning:  #223-D: function "get_test_recv_time" declared implicitly
+compiling pkt_build.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(74): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(63): warning:  #177-D: variable "status" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(91): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(96): warning:  #223-D: function "set_awake_time_after_send" declared implicitly
+compiling app_algo.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(55): warning:  #223-D: function "rand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(79): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(87): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(88): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(148): warning:  #223-D: function "Enter_RX" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(163): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(172): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(181): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(183): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(185): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(213): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(218): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(230): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(286): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(298): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(306): warning:  #223-D: function "key_sync_func" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(337): warning:  #223-D: function "Power_ADC_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(365): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(367): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(368): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_gui.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(34): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(128): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(132): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+compiling app_state.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(26): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(55): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(83): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(87): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(90): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(92): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(99): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(121): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(122): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(154): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(178): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(180): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(248): warning:  #223-D: function "recv_data_reset_timer" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(249): warning:  #223-D: function "sys_info_print" declared implicitly
+compiling app_wrscreen.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(80): warning:  #223-D: function "active_screen_type_function" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(148): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(388): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(398): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(399): warning:  #223-D: function "back_up_gui_screen_num_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(405): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(427): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_char_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_dig_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(23): warning: C4017W: cordy may be used before being set
+compiling app_flash.c...
+compiling app_key.c...
+compiling app_usr_function.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(111): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(132): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(134): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(136): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(142): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(144): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(152): warning:  #223-D: function "key_state_change" declared implicitly
+compiling ep12864.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\ep12864.c(60): warning:  #223-D: function "Delay100us" declared implicitly
+compiling stm32f0xx_iwdg.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_flash.c...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_pwr.c...
+compiling stm32f0xx_exti.c...
+compiling stm32f0xx_syscfg.c...
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_adc.c...
+compiling stm32f0xx_dma.c...
+compiling stm32f0xx_usart.c...
+compiling a7139.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(135): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(164): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fcd" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(459): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(460): warning:  #550-D: variable "vcb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(222): warning: C4017W: tmp may be used before being set
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(290): warning: C4017W: tmp may be used before being set
+compiling a7139_api.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(42): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(60): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(62): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(73): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(76): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(85): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(95): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(111): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(116): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(155): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(144): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vcb" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vccf" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(147): warning:  #177-D: variable "orgVal" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(194): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(230): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(218): warning:  #177-D: variable "state" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(247): warning:  #223-D: function "get_random" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(248): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(264): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(257): warning:  #177-D: variable "rssi_value" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(258): warning:  #177-D: variable "rssi_rts" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(259): warning:  #177-D: variable "rssi_retry" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(319): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(328): warning:  #223-D: function "cale_send_and_recv" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(338): warning:  #550-D: variable "state" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(357): warning:  #223-D: function "Delay100us" declared implicitly
+linking...
+Program Size: Code=26400 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 199 Warning(s).
+Rebuild target 'smart_tags_m0'
+assembling startup_stm32f0xx.s...
+compiling main.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(19): warning:  #223-D: function "USART2_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(23): warning:  #223-D: function "load_tag_logo" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(24): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(25): warning:  #223-D: function "tag_self_test" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(27): warning:  #223-D: function "key_state_change" declared implicitly
+"..\obj\smart_tags_m0.axf" - 0 Errors, 5 Warning(s).
+Project build/rebuild aborted.
+Build target 'smart_tags_m0'
+compiling main.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(19): warning:  #223-D: function "USART2_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(23): warning:  #223-D: function "load_tag_logo" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(24): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(25): warning:  #223-D: function "tag_self_test" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(27): warning:  #223-D: function "key_state_change" declared implicitly
+compiling system_stm32f0xx.c...
+compiling stm32f0xx_it.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(76): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(92): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(105): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(130): warning:  #223-D: function "WakeUp_Init" declared implicitly
+compiling bsp.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(35): warning:  #223-D: function "len_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(37): warning:  #223-D: function "rf_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(39): warning:  #223-D: function "longdata_wait_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(340): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(433): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(435): warning:  #223-D: function "RTC_LSE_Config" declared implicitly
+compiling BSP_USART2.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\BSP_USART2.c(9): warning:  #177-D: variable "NVIC_InitStruct" was declared but never referenced
+compiling usr_rtc.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(124): warning:  #177-D: variable "RTC_TimeStructure" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(127): warning:  #177-D: variable "RTC_AlarmStructure" was declared but never referenced
+compiling usr_lowpower.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(79): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(81): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(87): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(89): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(91): warning:  #223-D: function "LED_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(92): warning:  #223-D: function "Button_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(96): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(106): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(109): warning:  #223-D: function "USART2_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(121): warning:  #223-D: function "a7139_entry_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(123): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(126): warning:  #223-D: function "generate_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(129): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(130): warning:  #223-D: function "a7139_wake_up_from_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(138): warning:  #223-D: function "WOR_enable_by_sync" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(140): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(145): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(147): warning:  #223-D: function "WOR_disable" declared implicitly
+compiling crc16.c...
+compiling menu.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Inc\menu.h(5): warning:  #1295-D: Deprecated declaration get_test_recv_time - give arg types
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(42): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(72): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(74): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(83): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(84): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(107): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(110): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(114): warning:  #223-D: function "sprintf" declared implicitly
+compiling engineer_mode.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(17): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(28): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(30): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(40): warning:  #223-D: function "Led_toggle" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(62): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(71): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(75): warning:  #223-D: function "App_GetEnergy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(78): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(85): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(86): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(113): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(132): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(142): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(146): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(152): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(153): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(51): warning:  #177-D: variable "led" was declared but never referenced
+compiling pmw_led.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(176): warning:  #177-D: variable "pmw_value_current" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(256): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_msg.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(107): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(116): warning:  #223-D: function "srand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(122): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(184): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(318): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(370): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(388): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(402): warning:  #223-D: function "sum_check_cal32" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(408): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(423): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(384): warning:  #177-D: variable "wrlasttmp" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(502): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(505): warning:  #223-D: function "tag_test_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(522): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(532): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(539): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(560): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(561): warning:  #223-D: function "tag_app_update" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(566): warning:  #223-D: function "restore_screen_context_data" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(579): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(580): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(602): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(603): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(606): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(626): warning:  #223-D: function "refresh_screen_by_code" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(637): warning:  #223-D: function "update_led_spark_paras" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(646): warning:  #223-D: function "back_up_sleeptime_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(658): warning:  #223-D: function "back_up_reportflag_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(698): warning:  #223-D: function "get_ledn_on" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(741): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(794): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(795): warning:  #223-D: function "get_test_recv_time" declared implicitly
+compiling pkt_build.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(74): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(63): warning:  #177-D: variable "status" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(91): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(96): warning:  #223-D: function "set_awake_time_after_send" declared implicitly
+compiling app_algo.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(30): warning:  #223-D: function "USART2_Send" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(28): warning:  #177-D: variable "i" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(55): warning:  #223-D: function "rand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(79): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(87): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(88): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(148): warning:  #223-D: function "Enter_RX" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(163): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(172): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(181): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(183): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(185): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(213): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(218): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(230): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(286): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(298): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(306): warning:  #223-D: function "key_sync_func" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(337): warning:  #223-D: function "Power_ADC_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(365): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(367): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(368): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_gui.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(34): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(128): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(132): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+compiling app_state.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(26): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(55): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(83): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(87): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(90): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(92): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(99): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(121): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(122): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(154): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(178): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(180): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(248): warning:  #223-D: function "recv_data_reset_timer" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(249): warning:  #223-D: function "sys_info_print" declared implicitly
+compiling app_wrscreen.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(80): warning:  #223-D: function "active_screen_type_function" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(148): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(388): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(398): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(399): warning:  #223-D: function "back_up_gui_screen_num_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(405): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(427): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_char_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_dig_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(23): warning: C4017W: cordy may be used before being set
+compiling app_flash.c...
+compiling app_key.c...
+compiling app_usr_function.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(111): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(132): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(134): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(136): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(142): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(144): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(152): warning:  #223-D: function "key_state_change" declared implicitly
+compiling ep12864.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\ep12864.c(60): warning:  #223-D: function "Delay100us" declared implicitly
+compiling stm32f0xx_iwdg.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_flash.c...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_pwr.c...
+compiling stm32f0xx_exti.c...
+compiling stm32f0xx_syscfg.c...
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_adc.c...
+compiling stm32f0xx_dma.c...
+compiling stm32f0xx_usart.c...
+compiling a7139.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(135): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(164): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fcd" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(459): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(460): warning:  #550-D: variable "vcb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(222): warning: C4017W: tmp may be used before being set
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(290): warning: C4017W: tmp may be used before being set
+compiling a7139_api.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(42): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(60): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(62): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(73): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(76): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(85): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(95): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(111): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(116): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(155): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(144): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vcb" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vccf" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(147): warning:  #177-D: variable "orgVal" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(194): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(230): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(218): warning:  #177-D: variable "state" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(247): warning:  #223-D: function "get_random" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(248): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(264): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(257): warning:  #177-D: variable "rssi_value" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(258): warning:  #177-D: variable "rssi_rts" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(259): warning:  #177-D: variable "rssi_retry" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(319): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(328): warning:  #223-D: function "cale_send_and_recv" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(338): warning:  #550-D: variable "state" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(357): warning:  #223-D: function "Delay100us" declared implicitly
+linking...
+Program Size: Code=27928 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 204 Warning(s).
+Build target 'smart_tags_m0'
+linking...
+Program Size: Code=27928 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 0 Warning(s).
+Build target 'smart_tags_m0'
+compiling main.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(19): warning:  #223-D: function "USART2_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(23): warning:  #223-D: function "load_tag_logo" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(24): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(25): warning:  #223-D: function "tag_self_test" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(27): warning:  #223-D: function "key_state_change" declared implicitly
+compiling stm32f0xx_it.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(76): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(92): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(105): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(130): warning:  #223-D: function "WakeUp_Init" declared implicitly
+compiling bsp.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(35): warning:  #223-D: function "len_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(37): warning:  #223-D: function "rf_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(39): warning:  #223-D: function "longdata_wait_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(340): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(433): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(435): warning:  #223-D: function "RTC_LSE_Config" declared implicitly
+compiling usr_rtc.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(124): warning:  #177-D: variable "RTC_TimeStructure" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(127): warning:  #177-D: variable "RTC_AlarmStructure" was declared but never referenced
+compiling usr_lowpower.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(79): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(81): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(87): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(89): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(91): warning:  #223-D: function "LED_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(92): warning:  #223-D: function "Button_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(96): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(106): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(109): warning:  #223-D: function "USART2_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(121): warning:  #223-D: function "a7139_entry_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(123): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(126): warning:  #223-D: function "generate_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(129): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(130): warning:  #223-D: function "a7139_wake_up_from_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(138): warning:  #223-D: function "WOR_enable_by_sync" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(140): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(145): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(147): warning:  #223-D: function "WOR_disable" declared implicitly
+compiling crc16.c...
+compiling menu.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Inc\menu.h(5): warning:  #1295-D: Deprecated declaration get_test_recv_time - give arg types
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(42): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(72): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(74): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(83): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(84): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(107): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(110): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(114): warning:  #223-D: function "sprintf" declared implicitly
+compiling engineer_mode.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(17): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(28): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(30): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(40): warning:  #223-D: function "Led_toggle" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(62): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(71): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(75): warning:  #223-D: function "App_GetEnergy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(78): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(85): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(86): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(113): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(132): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(142): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(146): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(152): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(153): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(51): warning:  #177-D: variable "led" was declared but never referenced
+compiling pmw_led.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(176): warning:  #177-D: variable "pmw_value_current" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(256): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_msg.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(107): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(116): warning:  #223-D: function "srand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(122): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(184): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(318): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(370): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(388): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(402): warning:  #223-D: function "sum_check_cal32" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(408): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(423): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(384): warning:  #177-D: variable "wrlasttmp" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(502): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(505): warning:  #223-D: function "tag_test_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(522): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(532): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(539): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(560): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(561): warning:  #223-D: function "tag_app_update" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(566): warning:  #223-D: function "restore_screen_context_data" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(579): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(580): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(602): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(603): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(606): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(626): warning:  #223-D: function "refresh_screen_by_code" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(637): warning:  #223-D: function "update_led_spark_paras" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(646): warning:  #223-D: function "back_up_sleeptime_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(658): warning:  #223-D: function "back_up_reportflag_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(698): warning:  #223-D: function "get_ledn_on" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(741): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(794): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(795): warning:  #223-D: function "get_test_recv_time" declared implicitly
+compiling pkt_build.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(74): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(63): warning:  #177-D: variable "status" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(91): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(96): warning:  #223-D: function "set_awake_time_after_send" declared implicitly
+compiling app_algo.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(30): warning:  #223-D: function "USART2_Send" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(28): warning:  #177-D: variable "i" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(55): warning:  #223-D: function "rand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(79): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(87): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(88): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(148): warning:  #223-D: function "Enter_RX" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(163): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(172): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(181): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(183): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(185): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(213): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(218): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(230): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(286): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(298): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(306): warning:  #223-D: function "key_sync_func" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(337): warning:  #223-D: function "Power_ADC_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(365): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(367): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(368): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_gui.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(34): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(128): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(132): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+compiling app_state.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(26): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(55): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(83): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(87): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(90): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(92): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(99): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(121): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(122): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(154): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(178): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(180): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(248): warning:  #223-D: function "recv_data_reset_timer" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(249): warning:  #223-D: function "sys_info_print" declared implicitly
+compiling app_wrscreen.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(80): warning:  #223-D: function "active_screen_type_function" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(148): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(388): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(398): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(399): warning:  #223-D: function "back_up_gui_screen_num_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(405): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(427): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_char_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_dig_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(23): warning: C4017W: cordy may be used before being set
+compiling app_flash.c...
+compiling app_key.c...
+compiling app_usr_function.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(111): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(132): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(134): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(136): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(142): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(144): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(152): warning:  #223-D: function "key_state_change" declared implicitly
+compiling ep12864.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\ep12864.c(60): warning:  #223-D: function "Delay100us" declared implicitly
+compiling a7139.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(135): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(164): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fcd" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(459): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(460): warning:  #550-D: variable "vcb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(222): warning: C4017W: tmp may be used before being set
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(290): warning: C4017W: tmp may be used before being set
+compiling a7139_api.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(42): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(60): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(62): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(73): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(76): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(85): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(95): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(111): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(116): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(155): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(144): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vcb" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vccf" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(147): warning:  #177-D: variable "orgVal" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(194): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(230): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(218): warning:  #177-D: variable "state" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(247): warning:  #223-D: function "get_random" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(248): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(264): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(257): warning:  #177-D: variable "rssi_value" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(258): warning:  #177-D: variable "rssi_rts" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(259): warning:  #177-D: variable "rssi_retry" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(319): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(328): warning:  #223-D: function "cale_send_and_recv" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(338): warning:  #550-D: variable "state" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(357): warning:  #223-D: function "Delay100us" declared implicitly
+linking...
+Program Size: Code=27928 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 203 Warning(s).
+Build target 'smart_tags_m0'
+compiling app_algo.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(30): warning:  #223-D: function "USART2_Send" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(28): warning:  #177-D: variable "i" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(55): warning:  #223-D: function "rand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(79): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(87): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(88): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(148): warning:  #223-D: function "Enter_RX" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(163): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(172): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(181): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(183): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(185): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(213): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(218): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(230): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(286): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(298): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(306): warning:  #223-D: function "key_sync_func" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(337): warning:  #223-D: function "Power_ADC_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(365): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(367): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(368): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+linking...
+Program Size: Code=27936 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 22 Warning(s).
+Build target 'smart_tags_m0'
+linking...
+Program Size: Code=27936 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 0 Warning(s).
+Build target 'smart_tags_m0'
+compiling main.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(19): warning:  #223-D: function "USART2_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(23): warning:  #223-D: function "load_tag_logo" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(24): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(25): warning:  #223-D: function "tag_self_test" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\main.c(27): warning:  #223-D: function "key_state_change" declared implicitly
+compiling stm32f0xx_it.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(76): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(92): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(105): warning:  #223-D: function "WakeUp_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\stm32f0xx_it.c(130): warning:  #223-D: function "WakeUp_Init" declared implicitly
+compiling bsp.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(35): warning:  #223-D: function "len_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(37): warning:  #223-D: function "rf_on_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(39): warning:  #223-D: function "longdata_wait_timer_handler" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(340): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(433): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\bsp.c(435): warning:  #223-D: function "RTC_LSE_Config" declared implicitly
+compiling usr_rtc.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(124): warning:  #177-D: variable "RTC_TimeStructure" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_rtc.c(127): warning:  #177-D: variable "RTC_AlarmStructure" was declared but never referenced
+compiling usr_lowpower.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(79): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(81): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(87): warning:  #223-D: function "SysTick_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(89): warning:  #223-D: function "Rcc_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(91): warning:  #223-D: function "LED_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(92): warning:  #223-D: function "Button_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(96): warning:  #223-D: function "lcd_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(106): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(109): warning:  #223-D: function "USART2_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(121): warning:  #223-D: function "a7139_entry_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(123): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(126): warning:  #223-D: function "generate_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(129): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(130): warning:  #223-D: function "a7139_wake_up_from_sleep_mode" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(138): warning:  #223-D: function "WOR_enable_by_sync" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(140): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(145): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\usr_lowpower.c(147): warning:  #223-D: function "WOR_disable" declared implicitly
+compiling crc16.c...
+compiling menu.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Inc\menu.h(5): warning:  #1295-D: Deprecated declaration get_test_recv_time - give arg types
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(42): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(72): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(74): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(83): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(84): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(107): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(110): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\menu.c(114): warning:  #223-D: function "sprintf" declared implicitly
+compiling engineer_mode.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(17): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(28): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(30): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(40): warning:  #223-D: function "Led_toggle" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(62): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(71): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(75): warning:  #223-D: function "App_GetEnergy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(78): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(85): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(86): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(113): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(130): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(132): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(142): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(146): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(152): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(153): warning:  #223-D: function "key_reset_system" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\engineer_mode.c(51): warning:  #177-D: variable "led" was declared but never referenced
+compiling pmw_led.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(176): warning:  #177-D: variable "pmw_value_current" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(256): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pmw_led.c(257): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_msg.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(107): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(116): warning:  #223-D: function "srand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(122): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(184): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(318): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(319): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(370): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(371): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(388): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(389): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(402): warning:  #223-D: function "sum_check_cal32" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(408): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(423): warning:  #223-D: function "store_software_copy" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(384): warning:  #177-D: variable "wrlasttmp" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(502): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(505): warning:  #223-D: function "tag_test_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(522): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(532): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(539): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(560): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(561): warning:  #223-D: function "tag_app_update" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(566): warning:  #223-D: function "restore_screen_context_data" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(579): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(580): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(602): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(603): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(606): warning:  #111-D: statement is unreachable
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(626): warning:  #223-D: function "refresh_screen_by_code" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(637): warning:  #223-D: function "update_led_spark_paras" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(646): warning:  #223-D: function "back_up_sleeptime_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(658): warning:  #223-D: function "back_up_reportflag_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(698): warning:  #223-D: function "get_ledn_on" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(741): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(794): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_msg.c(795): warning:  #223-D: function "get_test_recv_time" declared implicitly
+compiling pkt_build.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #223-D: function "A7139_Send_Msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(70): warning:  #188-D: enumerated type mixed with another type
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(74): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(63): warning:  #177-D: variable "status" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(91): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\pkt_build.c(96): warning:  #223-D: function "set_awake_time_after_send" declared implicitly
+compiling app_algo.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(30): warning:  #223-D: function "USART2_Send" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(28): warning:  #177-D: variable "i" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(55): warning:  #223-D: function "rand" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(79): warning:  #223-D: function "SystemSleep_wakeBy_WorAndKey" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(87): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(88): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(148): warning:  #223-D: function "Enter_RX" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(163): warning:  #223-D: function "cancel_alarm_Interrupt" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(172): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(181): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(183): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(185): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(213): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(218): warning:  #223-D: function "A7139_SetSleepTime" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(230): warning:  #223-D: function "turn_all_led_off" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(286): warning:  #223-D: function "Set_LedOn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(298): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(306): warning:  #223-D: function "key_sync_func" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(337): warning:  #223-D: function "Power_ADC_Init" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(365): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(367): warning:  #223-D: function "sprintf" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_algo.c(368): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+compiling app_gui.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(34): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(128): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_gui.c(132): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+compiling app_state.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(26): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(55): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(83): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(87): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(90): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(92): warning:  #223-D: function "test_recv_time" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(99): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(121): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(122): warning:  #223-D: function "rf_para_clean" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(154): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(178): warning:  #223-D: function "item_show_msg" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(180): warning:  #223-D: function "AppRF_turn" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(248): warning:  #223-D: function "recv_data_reset_timer" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_state.c(249): warning:  #223-D: function "sys_info_print" declared implicitly
+compiling app_wrscreen.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(80): warning:  #223-D: function "active_screen_type_function" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(148): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(164): warning:  #186-D: pointless comparison of unsigned integer with zero
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(388): warning:  #223-D: function "update_screen_id" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(398): warning:  #223-D: function "Flash_ReadTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(399): warning:  #223-D: function "back_up_gui_screen_num_to_flash" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(405): warning:  #223-D: function "sys_info_print" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(427): warning:  #223-D: function "Clear_EPaper" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_char_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(10): warning:  #177-D: variable "last_refresh_dig_block_id" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_wrscreen.c(23): warning: C4017W: cordy may be used before being set
+compiling app_flash.c...
+compiling app_key.c...
+compiling app_usr_function.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(111): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(132): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(134): warning:  #223-D: function "Flash_SaveTagState" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(136): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(142): warning:  #223-D: function "key_state_change" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(144): warning:  #223-D: function "back_up_InventoryMode_information" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\app_usr_function.c(152): warning:  #223-D: function "key_state_change" declared implicitly
+compiling ep12864.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Src\ep12864.c(60): warning:  #223-D: function "Delay100us" declared implicitly
+compiling a7139.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(135): warning:  #177-D: variable "GPIO_InitStruct" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(164): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(458): warning:  #550-D: variable "fcd" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(459): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(460): warning:  #550-D: variable "vcb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(222): warning: C4017W: tmp may be used before being set
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139.c(290): warning: C4017W: tmp may be used before being set
+compiling a7139_api.c...
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(42): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(60): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(62): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(73): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(76): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(85): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(95): warning:  #223-D: function "RCOSC_Cal" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(111): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(116): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(155): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(144): warning:  #550-D: variable "vb" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vcb" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(145): warning:  #177-D: variable "vccf" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(147): warning:  #177-D: variable "orgVal" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(194): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(230): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(218): warning:  #177-D: variable "state" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(247): warning:  #223-D: function "get_random" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(248): warning:  #223-D: function "Delay100us" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(264): warning:  #223-D: function "A7139_RX_Exti" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(257): warning:  #177-D: variable "rssi_value" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(258): warning:  #177-D: variable "rssi_rts" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(259): warning:  #177-D: variable "rssi_retry" was declared but never referenced
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(319): warning:  #223-D: function "cal_crc16" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(328): warning:  #223-D: function "cale_send_and_recv" declared implicitly
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(338): warning:  #550-D: variable "state" was set but never used
+E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\Libraries\a7139\a7139_api.c(357): warning:  #223-D: function "Delay100us" declared implicitly
+linking...
+Program Size: Code=27936 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 203 Warning(s).
+Build target 'smart_tags_m0'
+linking...
+Program Size: Code=27936 RO-data=300 RW-data=268 ZI-data=6164  
+After Build - User command #1: D:\Keil\ARM\ARMCC\bin\fromelf.exe --bin --output ../app_smart_tags.bin ../obj/smart_tags_m0.axf
+"..\obj\smart_tags_m0.axf" - 0 Errors, 0 Warning(s).
+Load "..\\obj\\smart_tags_m0.axf" 
+Load "..\\obj\\smart_tags_m0.axf" 
+Set JLink Project File to "E:\123\±êÇ©²âÊÔ\tag_soft\tag_app_new_buss\MDK-ARM\pro\JLinkSettings.ini"
+* JLink Info: Device "STM32F051C8" selected (64 KB flash, 8 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.72a, compiled Jun 26 2013 11:49:14
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info: FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F051C8
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 1
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

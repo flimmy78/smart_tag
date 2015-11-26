@@ -81,19 +81,22 @@ typedef enum
 #define  LED_BLUE_PIN 			 GPIO_Pin_9
 #define  LED_BLUE_PORT			 GPIOB
 #define  LED_BLUE_CLK 			 RCC_AHBPeriph_GPIOB
+#define  LED_BLUE_PIN_SOURCE GPIO_PinSource9
 
 #define  LED_YELLOW_PIN 			 GPIO_Pin_8
 #define  LED_YELLOW_PORT			 GPIOB
 #define  LED_YELLOW_CLK 			 RCC_AHBPeriph_GPIOB
+#define  LED_YELLOW_PIN_SOURCE GPIO_PinSource8
 
 #define  LED_RED_PIN 			 GPIO_Pin_7
 #define  LED_RED_PORT			 GPIOB
 #define  LED_RED_CLK 			 RCC_AHBPeriph_GPIOB
+#define  LED_RED_PIN_SOURCE GPIO_PinSource7
 
 #define  LED_GREEN_PIN 			 GPIO_Pin_6
 #define  LED_GREEN_PORT			 GPIOB
 #define  LED_GREEN_CLK 			 RCC_AHBPeriph_GPIOB
-
+#define  LED_GREEN_PIN_SOURCE GPIO_PinSource6
 
 typedef enum 
 {
@@ -102,6 +105,12 @@ typedef enum
   LED_YELLOW  = 2,
   LED_WHITE  = 3
 } LED_TypeDef;
+
+extern const uint32_t LED_GPIO_PIN[4] ;
+
+extern GPIO_TypeDef*  LED_GPIO_PORT[4];
+
+extern uint8_t        LED_PIN_SOURCE[4];
 
 //////////
 
@@ -159,7 +168,7 @@ typedef struct
 	
 	 uint8 led_state;
 	
-	uint8 sys_wor_sleep;
+	uint8 sys_sleep;
 	uint8 sys_wake_up;
 	
 	uint8 key_protect;

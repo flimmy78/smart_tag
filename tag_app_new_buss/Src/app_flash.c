@@ -291,7 +291,49 @@ void store_usr_gui_to_flash(uint8 gui_no, uint8 *pdata)
   store_gui_page(STORE_USR_GUI_PAGE_ADDR + gui_no*1024, 0, data); 
 }
 
+/*software update*/
 
+void store_software_flash_clean(void)
+{
+	Flash_ReadTagInfo();
+    
+  tag_flash_info.block_idx_flag_set = 0;
+	tag_flash_info.block_num = 0;
+	tag_flash_info.last_gui_flag_set = 0;
+  tag_flash_info.last_gui_screen_id = 0;
+  Flash_SaveTagInfo();
+	
+	Flash_ReadTagState();
+	state_para.gui_screen_set = 0 ;
+	state_para.gui_screen_num = 0;
+	state_para.current_gui_page = 0;
+	Flash_SaveTagState();
+}
+
+
+
+void store_software_copy(uint8 *buf, uint16 cnt, uint32  writelen)
+{
+	uint8 buff[1024] = {0};
+  uint16 write_len = cnt;
+	uint32 state_page = (STORE_APP_UPDATE_ADDR - STORE_BOOT_ADDR + writelen)/0x400;
+  uint8 *buf_offset = buf;
+  while(write_len>1024)
+	{
+     Flash_Erase(state_page);
+		 memcpy(buff, buf_offset,1024);
+		 Flash_Write((uint32)(STORE_APP_UPDATE_ADDR + writelen), &buff[0], 1024);
+		 write_len -= 1024;
+		 writelen += 1024;
+		 state_page+=1; 
+		 buf_offset+=1024;
+	}
+	
+	Flash_Erase(state_page);
+	memcpy(buff, buf_offset, write_len);
+	Flash_Write((uint32)(STORE_APP_UPDATE_ADDR + writelen), &buff[0], write_len);
+	
+}
 
 
 

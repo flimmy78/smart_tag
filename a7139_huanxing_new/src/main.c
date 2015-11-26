@@ -35,6 +35,8 @@ int main(void)
    
 	IWDG_Init();
 	
+	//A7139_Fill_FIFO(&send_msg_buf[0], send_msg_buf[0] + 1 + 2);
+	
    while(1)
    {			 
 		if(sysTime1ms % 50 == 0) 

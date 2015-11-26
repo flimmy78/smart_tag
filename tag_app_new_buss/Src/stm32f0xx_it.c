@@ -73,7 +73,7 @@ void SysTick_Handler(void)
 
 void EXTI0_1_IRQHandler(void)
 {
-	if(system_flag.sys_wor_sleep) WakeUp_Init();
+	if(system_flag.sys_sleep) WakeUp_Init();
 	if(EXTI_GetITStatus(A7139_GDO1_EXTI_LINE) != RESET)
   {
 		a7139_recv_handle();
@@ -89,7 +89,7 @@ void EXTI0_1_IRQHandler(void)
 
 void EXTI2_3_IRQHandler(void)
 {
-	if(system_flag.sys_wor_sleep) WakeUp_Init();
+	if(system_flag.sys_sleep) WakeUp_Init();
 	if(EXTI_GetITStatus(KEY3_EXTI_LINE) != RESET)
   {
 		if(!system_flag.key_protect ) system_flag.key_press |= (0x01<<3);
@@ -102,7 +102,7 @@ void EXTI2_3_IRQHandler(void)
 
 void EXTI4_15_IRQHandler(void)
 {
-	if(system_flag.sys_wor_sleep) WakeUp_Init();
+	if(system_flag.sys_sleep) WakeUp_Init();
 	
 	if(EXTI_GetITStatus(KEY_PUT_EXTI_LINE) != RESET)
   {
@@ -127,7 +127,7 @@ void EXTI4_15_IRQHandler(void)
 
 void RTC_IRQHandler(void)
 { 
- if(system_flag.sys_wor_sleep) WakeUp_Init();
+ if(system_flag.sys_sleep) WakeUp_Init();
  if(RTC_GetITStatus(RTC_IT_ALRA) != RESET)
   {
 	 

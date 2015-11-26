@@ -12,21 +12,22 @@ extern void tag_app_sync_pkt(void);
 extern void App_Maintance(void);
 extern void Key_detect_Run(void);
 
-
 int main(void)
 {
+	
 #ifdef PRINT_DEBUG
 	USART2_Init();
 #endif
 	Board_Init();
 	
 	load_tag_logo(TRUE);
-	Delay100us(10000);
+	Delay100us(20000);
 	tag_self_test();
 	
 	key_state_change(KEY_NORMAL);
-  App_init_process();
 
+  App_init_process();
+	
   while(1)
   {
 		/*key detect*/
@@ -36,9 +37,9 @@ int main(void)
     /*app state */
     AppState_Run();
 		/*sleep and wake function*/
-		system_Goto_sleep();
+	  system_Goto_sleep();
 		/*power detect*/
-		App_Maintance();
+	  App_Maintance();
   }
 }
 

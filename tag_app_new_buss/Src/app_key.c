@@ -7,6 +7,8 @@
 
 static KEY_StateDef key_state = KEY_NORMAL;
 
+extern void yest_led(uint8 key);
+
 void key_state_change(KEY_StateDef state)
 {
   key_state = state;
@@ -33,6 +35,8 @@ void key_sync_func(KEY_TypeDef key)
 	{
 		case KEY_NORMAL:
 			key_function[KEY_PUT].func_cmd = put_key_to_set_all_led_off;
+			key_function[KEY1].func_cmd = yest_led;
+			key_function[KEY3].func_cmd = yest_led;
 	    key_function[KEY2].func_cmd = turn_gui_pages;
       key_function[KEY_PUT_2].func_cmd = key_reset_system;
 		  key_function[KEY_PUT_1].func_cmd = usr_key_event_report;

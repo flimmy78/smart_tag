@@ -31,7 +31,7 @@ I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Dr
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\a7139\a7139.h)(0x56011600)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x5643F302)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x564ADDE8)
 F (..\system_stm32f0xx.c)(0x5642F384)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\STM32F0xx_StdPeriph_Driver\inc -I..\..\a7139_touchuan -I..\a7139 -I..\..\a7139_huanxing -I..\sleep_wake -I..\..\a7139_huanxing_new-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F2x-DUSE_STDPERIPH_DRIVER -DSTM32F0XX -o .\out\system_stm32f0xx.o --omf_browse .\out\system_stm32f0xx.crf --depend .\out\system_stm32f0xx.d)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\stm32f0xx.h)(0x4F6BFDB8)
 I (d:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
@@ -93,10 +93,10 @@ I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Dr
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\BSP_USART2.h)(0x52D0177C)
 I (d:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\sleep_wake\sleep_wake.h)(0x561B651A)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x5643F302)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\sleep_wake\sleep_wake.h)(0x5643FC9C)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x564ADDE8)
 F (..\src\app_msg.c)(0x55EFAC2E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\STM32F0xx_StdPeriph_Driver\inc -I..\..\a7139_touchuan -I..\a7139 -I..\..\a7139_huanxing -I..\sleep_wake -I..\..\a7139_huanxing_new-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F2x-DUSE_STDPERIPH_DRIVER -DSTM32F0XX -o .\out\app_msg.o --omf_browse .\out\app_msg.crf --depend .\out\app_msg.d)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x5643F302)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x564ADDE8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\stm32f0xx.h)(0x4F6BFDB8)
 I (d:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
 I (d:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
@@ -125,10 +125,10 @@ I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Dr
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x4F6BFDB8)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\sleep_wake\sleep_wake.h)(0x561B651A)
-F (..\sleep_wake\sleep_wake.c)(0x5643F2D0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\STM32F0xx_StdPeriph_Driver\inc -I..\..\a7139_touchuan -I..\a7139 -I..\..\a7139_huanxing -I..\sleep_wake -I..\..\a7139_huanxing_new-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F2x-DUSE_STDPERIPH_DRIVER -DSTM32F0XX -o .\out\sleep_wake.o --omf_browse .\out\sleep_wake.crf --depend .\out\sleep_wake.d)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\sleep_wake\sleep_wake.h)(0x561B651A)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x5643F302)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\sleep_wake\sleep_wake.h)(0x5643FC9C)
+F (..\sleep_wake\sleep_wake.c)(0x56444C71)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\STM32F0xx_StdPeriph_Driver\inc -I..\..\a7139_touchuan -I..\a7139 -I..\..\a7139_huanxing -I..\sleep_wake -I..\..\a7139_huanxing_new-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F2x-DUSE_STDPERIPH_DRIVER -DSTM32F0XX -o .\out\sleep_wake.o --omf_browse .\out\sleep_wake.crf --depend .\out\sleep_wake.d)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\sleep_wake\sleep_wake.h)(0x5643FC9C)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x564ADDE8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\stm32f0xx.h)(0x4F6BFDB8)
 I (d:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
 I (d:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
@@ -159,7 +159,7 @@ I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Dr
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x4F6BFDB8)
 F (..\src\crc16.c)(0x55ADF672)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\STM32F0xx_StdPeriph_Driver\inc -I..\..\a7139_touchuan -I..\a7139 -I..\..\a7139_huanxing -I..\sleep_wake -I..\..\a7139_huanxing_new-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F2x-DUSE_STDPERIPH_DRIVER -DSTM32F0XX -o .\out\crc16.o --omf_browse .\out\crc16.crf --depend .\out\crc16.d)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\crc16.h)(0x5604ECA2)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x5643F302)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x564ADDE8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new\stm32f0xx.h)(0x4F6BFDB8)
 I (d:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
 I (d:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
@@ -859,7 +859,7 @@ I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Dr
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x4F6BFDB8)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x5643F302)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x564ADDE8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\a7139\a7139reg.h)(0x55865050)
 F (..\a7139\a7139_api.c)(0x5604EC22)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\STM32F0xx_StdPeriph_Driver\inc -I..\..\a7139_touchuan -I..\a7139 -I..\..\a7139_huanxing -I..\sleep_wake -I..\..\a7139_huanxing_new-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F2x-DUSE_STDPERIPH_DRIVER -DSTM32F0XX -o .\out\a7139_api.o --omf_browse .\out\a7139_api.crf --depend .\out\a7139_api.d)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\a7139\a7139.h)(0x56011600)
@@ -891,5 +891,5 @@ I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Dr
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x4F6BFDB8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x4F6BFDB8)
-I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x5643F302)
+I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\inc\main.h)(0x564ADDE8)
 I (E:\123\±êÇ©²âÊÔ\tag_soft\a7139_huanxing_new-»½ÐÑÓÐ¼ä¸ô\a7139\a7139reg.h)(0x55865050)
